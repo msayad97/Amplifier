@@ -4,30 +4,35 @@ Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
-WARNING: Node N011 is floating.
-WARNING: Node N013 is floating.
-WARNING: Node NC_03 is floating.
+c42: both pins shorted together -- ignoring.
+d9.2: both pins shorted together -- ignoring.
+c142: Increased Cpar to 6e-11
+c21: Increased Cpar to 6e-11
+c22: Increased Cpar to 6e-11
+WARNING: Node N015 is floating.
+WARNING: Node NC_01 is floating.
+WARNING: Node N030 is floating.
+WARNING: Node N032 is floating.
 
-WARNING: Less than two connections to node nc_01.  This node is used by q4.
-WARNING: Less than two connections to node nc_02.  This node is used by q4.
-WARNING: Less than two connections to node nc_03.  This node is used by q4.
+WARNING: Less than two connections to node nc_01.  This node is used by c45.
+WARNING: Less than two connections to node nc_02.  This node is used by d4.2.
 .OP point found by inspection.
 
-Date: Wed Jun 14 21:09:58 2023
-Total elapsed time: 0.234 seconds.
+Date: Thu Jun 15 00:06:28 2023
+Total elapsed time: 0.478 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 40000
+totiter = 40001
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 48
-fillins = 27
+matrix size = 110
+fillins = 90
 solver = Normal
 Avg thread counts: 1.0/0.0/1.0/1.0
-Matrix Compiler1: 5.33 KB object code size  1.0/0.8/[0.6]
-Matrix Compiler2: 4.70 KB object code size  0.3/0.7/[0.2]
+Matrix Compiler1: 13.40 KB object code size  2.3/1.2/[1.0]
+Matrix Compiler2: 10.96 KB object code size  0.6/0.8/[0.5]
 
