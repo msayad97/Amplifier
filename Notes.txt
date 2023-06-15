@@ -9,3 +9,6 @@ https://www.mouser.de/ProductDetail/onsemi/BAT54XV2T5G?qs=Jh7l0IbPjidwB61nzvybLg
 
 poti erstellen 
 https://www.mikrocontroller.net/topic/205027
+
+Q2
+unterschied zwischen IXTH10P50 und IXTH10P90P
