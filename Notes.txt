@@ -14,3 +14,5 @@ Q2
 unterschied zwischen IXTH10P50 und IXTH10P90P
 
 DNA Capacitor
+
+RF Transistor BLF188XRU
