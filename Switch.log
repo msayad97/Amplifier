@@ -6,66 +6,109 @@ Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 Limiting rise time of source v2 to 1e-07
 Limiting fall time of source v2 to 1e-07
-WARNING: Node N012 is floating.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 7.81441e-13 to 4.68769e-12
+Heightened Def Con from 9.79419e-10 to 9.81372e-10
+Heightened Def Con from 1.09465e-09 to 1.09661e-09
+Heightened Def Con from 3.63835e-09 to 3.64031e-09
+Heightened Def Con from 4.03398e-09 to 4.03594e-09
+Heightened Def Con from 4.09453e-09 to 4.09648e-09
+Heightened Def Con from 4.33553e-09 to 4.33944e-09
+Heightened Def Con from 4.53768e-09 to 4.55526e-09
+Heightened Def Con from 4.90023e-09 to 4.90047e-09
+Heightened Def Con from 5.47482e-09 to 5.47678e-09
+Heightened Def Con from 7.24704e-09 to 7.24899e-09
+Heightened Def Con from 7.37033e-09 to 7.37033e-09
+Heightened Def Con from 7.37033e-09 to 7.37082e-09
+Heightened Def Con from 7.37082e-09 to 7.37082e-09
+Heightened Def Con from 7.37082e-09 to 7.37473e-09
+Heightened Def Con from 7.78378e-09 to 7.78769e-09
+Heightened Def Con from 7.89055e-09 to 7.89446e-09
+Heightened Def Con from 8.8626e-09 to 8.86455e-09
+Heightened Def Con from 8.92693e-09 to 8.94256e-09
+Heightened Def Con from 1.32692e-08 to 1.32711e-08
+Heightened Def Con from 1.32848e-08 to 1.32867e-08
+Heightened Def Con from 1.33966e-08 to 1.33986e-08
+Heightened Def Con from 1.34293e-08 to 1.35543e-08
+Heightened Def Con from 1.38466e-08 +to 1.39735e-08
+Heightened Def Con from 1.54244e-08 to 1.54264e-08
+Heightened Def Con from 1.54628e-08 to 1.54647e-08
+Heightened Def Con from 1.55673e-08 to 1.55693e-08
+Heightened Def Con from 1.56467e-08 to 1.56469e-08
+Heightened Def Con from 1.57577e-08 to 1.57597e-08
+Heightened Def Con from 1.66113e-08 to 1.66115e-08
+Heightened Def Con from 1.66115e-08 to 1.66118e-08
+Heightened Def Con from 1.66118e-08 to 1.6612e-08
+Heightened Def Con from 1.6612e-08 to 1.66122e-08
+Heightened Def Con from 1.66122e-08 to 1.66125e-08
+Heightened Def Con from 1.66125e-08 to 1.67377e-08
+Heightened Def Con from 1.67382e-08 to 1.67385e-08
+Heightened Def Con from 1.7361e-08 to 1.7363e-08
+Heightened Def Con from 1.80651e-08 to 1.80671e-08
+Heightened Def Con from 1.86008e-08 to 1.96027e-08
+Heightened Def Con from 2.08764e-08 to 2.08784e-08
+Heightened Def Con from 2.1437e-08 to 2.14526e-08
+Heightened Def Con from 2.14532e-08 to 2.14551e-08
+Heightened Def Con from 2.15821e-08 to 2.1584e-08
+Heightened Def Con from 2.16187e-08 to 2.1744e-08
+Heightened Def Con from 2.24854e-08 to 2.24874e-08
+Heightened Def Con from 2.2751e-08 to 2.2753e-08
+Heightened Def Con from 2.27842e-08 to 2.27862e-08
+Heightened Def Con from 2.37105e-08 to 2.37144e-08
+Heightened Def Con from 2.43815e-08 to 2.43835e-08
+Heightened Def Con from 2.50568e-08 to 2.50607e-08
+Heightened Def Con from 2.79692e-08 to 2.79711e-08
+Heightened Def Con from 2.79819e-08 to 2.79838e-08
+Heightened Def Con from 2.80014e-08 to 2.80034e-08
+Heightened Def Con from 2.84306e-08 to 2.84345e-08
+Heightened Def Con from 2.88789e-08 to 2.88808e-08
+Heightened Def Con from 2.90327e-08 to 2.90346e-08
+Heightened Def Con from 2.93591e-08 to 2.93747e-08
+Heightened Def Con from 3.05112e-08 to 3.06381e-08
+Heightened Def Con from 3.22827e-08 to 3.22829e-08
+Heightened Def Con from 3.22834e-08 to 3.22853e-08
+Heightened Def Con from 3.23251e-08 to 3.23271e-08
+Heightened Def Con from 3.33642e-08 to 3.33644e-08
+Heightened Def Con from 3.33644e-08 to 3.33647e-08
+Heightened Def Con from 3.33647e-08 to 3.34916e-08
+Heightened Def Con from 3.40932e-08 to 3.40952e-08
+Heightened Def Con from 3.41367e-08 to 3.42636e-08
+Heightened Def Con from 3.48208e-08 to 3.48227e-08
+Heightened Def Con from 3.50052e-08 to 3.50054e-08
+Heightened Def Con from 3.50059e-08 to 3.50062e-08
+Heightened Def Con from 3.50101e-08 to 3.50103e-08
+Heightened Def Con from 3.50963e-08 to 3.60982e-08
+Heightened Def Con from 3.6151e-08 to 3.6276e-08
+Heightened Def Con from 3.94151e-08 to 3.94307e-08
+Heightened Def Con from 3.95177e-08 to 3.95177e-08
+Heightened Def Con from 3.95177e-08 to 3.95216e-08
+Heightened Def Con from 3.95899e-08 to 3.96055e-08
+Heightened Def Con from 3.96055e-08 to 3.96075e-08
+Heightened Def Con from 3.96417e-08 to 3.96456e-08
+Heightened Def Con from 3.99224e-08 to 3.994e-08
+Heightened Def Con from 4.02921e-08 to 4.0294e-08
+Heightened Def Con from 4.14908e-08 to 4.15064e-08
+Heightened Def Con from 4.18644e-08 to 4.18664e-08
+Heightened Def Con from 4.18703e-08 to 4.18742e-08
+Heightened Def Con from 4.19977e-08 to 4.19997e-08
+Heightened Def Con from 4.23517e-08 to 4.24767e-08
+Heightened Def Con from 1.00009e-06 to 1.00309e-06
 
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-05
-Gmin = 1.6455e-06
-Gmin = 1.76685e-07
-Gmin = 1.89714e-08
-Gmin = 2.03704e-09
-Gmin = 2.18725e-10
-Gmin = 2.34854e-11
-Gmin = 2.52173e-12
-Gmin = 2.70769e-13
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
-Changing Tseed to 1.95312e-12
-Heightened Def Con from 1.00016e-06 to 1.00316e-06
-Heightened Def Con from 8.14616e-06 to 8.14617e-06
-Heightened Def Con from 1.2208e-05 to 1.2209e-05
-Heightened Def Con from 1.36552e-05 to 1.36563e-05
-Heightened Def Con from 1.41481e-05 to 1.41481e-05
-Heightened Def Con from 1.41489e-05 to 1.41489e-05
-Heightened Def Con from 1.4149e-05 to 1.415e-05
-Heightened Def Con from 1.49818e-05 to 1.49828e-05
-Heightened Def Con from 1.57564e-05 to 1.57566e-05
-Heightened Def Con from 1.5899e-05 to 1.59e-05
-Heightened Def Con from 1.59281e-05 to 1.59291e-05
-Heightened Def Con from 1.59605e-05 to 1.59615e-05
-Heightened Def Con from 1.60408e-05 to 1.60408e-05
-Heightened Def Con from 1.89947e-05 to 1.89957e-05
-Heightened Def Con from 1.96181e-05 to 1.96201e-05
-Heightened Def Con from 1.98377e-05 to 1.98377e-05
-Heightened Def Con from 1.98804e-05 to 1.98807e-05
-Heightened Def Con from 1.99117e-05 to 1.99117e-05
-Heightened Def Con from 1.99282e-05 to 1.99282e-05
-Heightened Def Con from 1.99296e-05 to 1.99296e-05
-Heightened Def Con from 1.99935e-05 to 1.99935e-05
-
-Date: Tue Jun 20 18:11:47 2023
-Total elapsed time: 8.560 seconds.
+Date: Tue Jun 20 19:33:53 2023
+Total elapsed time: 4.543 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2151881
-traniter = 2151464
-tranpoints = 356951
-accept = 267745
-rejected = 89226
-matrix size = 50
-fillins = 22
+totiter = 795341
+traniter = 795294
+tranpoints = 151274
+accept = 113006
+rejected = 38355
+matrix size = 48
+fillins = 21
 solver = Normal
 Avg thread counts: 1.0/1.0/1.0/1.0
-Matrix Compiler1: 4.91 KB object code size  0.8/0.6/[0.5]
-Matrix Compiler2: 4.78 KB object code size  0.4/0.4/[0.4]
+Matrix Compiler1: 4.34 KB object code size  1.0/0.6/[0.5]
+Matrix Compiler2: off  [0.5]/1.2/0.6
 
