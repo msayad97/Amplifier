@@ -1,0 +1,71 @@
+Circuit: * C:\Users\msaya\Documents\Github\Amplifier\Switch.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+Limiting rise time of source v2 to 1e-07
+Limiting fall time of source v2 to 1e-07
+WARNING: Node N012 is floating.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Changing Tseed to 1.95312e-12
+Heightened Def Con from 1.00016e-06 to 1.00316e-06
+Heightened Def Con from 8.14616e-06 to 8.14617e-06
+Heightened Def Con from 1.2208e-05 to 1.2209e-05
+Heightened Def Con from 1.36552e-05 to 1.36563e-05
+Heightened Def Con from 1.41481e-05 to 1.41481e-05
+Heightened Def Con from 1.41489e-05 to 1.41489e-05
+Heightened Def Con from 1.4149e-05 to 1.415e-05
+Heightened Def Con from 1.49818e-05 to 1.49828e-05
+Heightened Def Con from 1.57564e-05 to 1.57566e-05
+Heightened Def Con from 1.5899e-05 to 1.59e-05
+Heightened Def Con from 1.59281e-05 to 1.59291e-05
+Heightened Def Con from 1.59605e-05 to 1.59615e-05
+Heightened Def Con from 1.60408e-05 to 1.60408e-05
+Heightened Def Con from 1.89947e-05 to 1.89957e-05
+Heightened Def Con from 1.96181e-05 to 1.96201e-05
+Heightened Def Con from 1.98377e-05 to 1.98377e-05
+Heightened Def Con from 1.98804e-05 to 1.98807e-05
+Heightened Def Con from 1.99117e-05 to 1.99117e-05
+Heightened Def Con from 1.99282e-05 to 1.99282e-05
+Heightened Def Con from 1.99296e-05 to 1.99296e-05
+Heightened Def Con from 1.99935e-05 to 1.99935e-05
+
+Date: Tue Jun 20 18:11:47 2023
+Total elapsed time: 8.560 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2151881
+traniter = 2151464
+tranpoints = 356951
+accept = 267745
+rejected = 89226
+matrix size = 50
+fillins = 22
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 4.91 KB object code size  0.8/0.6/[0.5]
+Matrix Compiler2: 4.78 KB object code size  0.4/0.4/[0.4]
+
