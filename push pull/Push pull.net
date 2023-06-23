@@ -1,7 +1,7 @@
 * C:\Users\msaya\Documents\Github\Amplifier\Push pull.asc
 V1 Vsup 0 56
-M利2 Vamp N001 Vsup Vsup IXTH10P50
-M利5A Vamp N001 0 0 BSC340N08NS3
+M利2 Out N001 Vsup Vsup IXTH10P50
+M利5A Out N001 0 0 BSC340N08NS3
 V2 N001 0 PULSE(0V 10V 0.5u 0 0 0.5u 1u 3)
 .model NMOS NMOS
 .model PMOS PMOS
