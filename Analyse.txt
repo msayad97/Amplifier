@@ -26,3 +26,13 @@ der groundet Q5Adamit er schnell ausgeht
 Q2 und Q5A 
 push pull Stufe. 
 schalten an und aus gegenseitig  
+
+
+
+
+Q1, D1, R2 ist eine aktive Pull-up-Schaltung, die dafür ausgelegt ist, den MOSFET schneller auszuschalten, als der andere MOSFET einschaltet. Wenn Q4 Strom aufnimmt, schaltet es den oberen p-Kanal-MOSFET ein, indem es Strom durch die Diode leitet. Wenn Q4 keinen Strom zieht, zieht Q1 die Gate-Spannung aktiv hoch und schaltet Q2 schnell aus. Während eines Übergangs wird die Kapazität des Q2-Gates von Q1 geladen oder von Q4 entladen.
+
+R16 und R20 stellen die Verstärkung des Verstärkers auf etwa 10 ein, indem sie das Rückkopplungssignal dämpfen. C13 ist eigentlich kein Tiefpass, sondern ein Hochpass, der die Rückkopplung bei hohen Frequenzen beschleunigt, wahrscheinlich um die Stabilität zu verbessern.
+
+
+Der Strom durch R19 wird durch die Basis- und Emitterspannung von Q4 eingestellt. Dieser Strom fließt durch R2 und liefert oder senkt ausreichend Spannung, um Q2 einzuschalten. Die Eingangsspannung muss nur etwa 8 Volt betragen, da dadurch genügend Strom durch R19 fließt, um über R2 genügend Gate-Spannung bereitzustellen, um den P-Kanal Q2 einzuschalten.
