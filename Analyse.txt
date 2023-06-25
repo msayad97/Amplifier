@@ -1,5 +1,16 @@
+der nichtinvertierende Verstärker versuchte, von einer 56-V-Quelle eine 2,2-Ohm-Wechselstrom-gekoppelte Last zu treiben, mit einem massiven transienten Stoßstrom über C18 im Ausgang und einer Ausgangsleistung in der Größenordnung von > 1 kW pk, wenn er tatsächlich richtig funktionierte, aber mit dem Arbeitszyklus wird von 50 auf 80 % verschoben, da der Gate-Antrieb klein ist und die Anstiegsgeschwindigkeit durch die negative Rückkopplung begrenzt ist. Die Hochgeschwindigkeits-, Hochspannungs- und Hochstromlogik von Klasse-D-Leistungsverstärkern verwendet niemals negative Rückkopplung, um die Gate-Spannung zu regeln. Es muss eine Totzeit geben, aber niemals eine lineare negative Rückkopplung. Es muss sich um einen Bang-Bang-Leistungsschalter mit Totzeitspannungsbegrenzung durch Klemmen oder Absorption handeln.
+
+
+C13 ist ein integrierender Verstärker mit negativer Rückkopplung, der den Arbeitszyklus mittelt, aber auch Q3 stark übersteuert und durch den für 1 Ampere ausgelegten D3 umgekehrt begrenzt wird mit über 50 A Spitzen vom Low-Side-Treiber.
+
 Q4 und Q3 
 Differenzverstärker
+https://www.elektronik-labor.de/Lernpakete/OPV1.htm
+
+wenn die Eingänge gleich sind, wird keine Differenz entstehen. keine Verstärkung. 
+wenn die Eingänge unterschiedliche Spannungen haben, entsteht eine differen bzw Verstärkung
+Die Verstärkung des Differenzverstärkers entspricht ungefähr der einer Emitterschaltung ohne Stromgegenkopplung.
+Die beiden gegen Masse gemessenen Ausgangsspannungen sind zueinander invertiert.
 
 Q3 leitet wenn Q2 angeschaltet ist.
 
