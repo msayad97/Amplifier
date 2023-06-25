@@ -1,0 +1,17 @@
+Q4 und Q3 
+Differenzverstärker
+
+Q3 leitet wenn Q2 angeschaltet ist.
+
+Q1
+R2 330 / R120 ist ein Art spannungsteiler für die Basis
+wenn die Basis niedriger als Vsup dann schaltet er durch. Basis muss auf high.
+wenn er angeschaltet ist, dann zieht er die Basis hoch.
+der ist angeschaltet wenn, der andere aus ist. (invertier)
+
+Q6
+der groundet Q5Adamit er schnell ausgeht
+
+Q2 und Q5A 
+push pull Stufe. 
+schalten an und aus gegenseitig  
