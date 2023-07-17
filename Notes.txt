@@ -1,3 +1,4 @@
+meeting 1
 D1 
 underschied zwischen bat54xv2t1g und bat54xv2t5g
 
@@ -22,3 +23,5 @@ Plus Eingangsspannung 0/1
 0/5V
 
 an 10ms out 10ms
+
+meeting 2
