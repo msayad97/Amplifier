@@ -25,3 +25,9 @@ Plus Eingangsspannung 0/1
 an 10ms out 10ms
 
 meeting 2
+Pmosfet bis - 90 A
+SiC mosfet
+UF3C065040T3S
+
+Silicon Carbide
+Compared with their Si counterparts, SiC-MOSFETs have a lower drift layer resistance but a higher channel resistance, and so the higher the gate-source voltage Vgs, which is the driving voltage, the lower is the on-resistance
