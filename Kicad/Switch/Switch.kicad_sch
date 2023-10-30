@@ -1082,7 +1082,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 64.77 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43bbae97-cb14-4dc2-bac5-3c3cb1e104f0)
-    (property "Reference" "J2" (at 65.405 91.44 0)
+    (property "Reference" "VTackt" (at 65.405 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Socket" (at 65.405 93.98 0)
@@ -1098,7 +1098,7 @@
     (instances
       (project "Switch"
         (path "/4a9b42e5-b2d8-48b2-80cd-b93e35a2f77b"
-          (reference "J2") (unit 1)
+          (reference "VTackt") (unit 1)
         )
       )
     )
@@ -1216,7 +1216,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 68.58 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69e80160-d20b-4bc4-b115-57994afe25ed)
-    (property "Reference" "J1" (at 69.215 45.72 0)
+    (property "Reference" "V56" (at 69.215 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Socket" (at 69.215 48.26 0)
@@ -1232,7 +1232,7 @@
     (instances
       (project "Switch"
         (path "/4a9b42e5-b2d8-48b2-80cd-b93e35a2f77b"
-          (reference "J1") (unit 1)
+          (reference "V56") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 187.96 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c141575a-85b5-4ad9-95f1-908007f01c9f)
-    (property "Reference" "J3" (at 189.23 102.87 0)
+    (property "Reference" "Vout" (at 189.23 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01_Socket" (at 189.23 105.41 0)
@@ -1388,7 +1388,7 @@
     (instances
       (project "Switch"
         (path "/4a9b42e5-b2d8-48b2-80cd-b93e35a2f77b"
-          (reference "J3") (unit 1)
+          (reference "Vout") (unit 1)
         )
       )
     )
