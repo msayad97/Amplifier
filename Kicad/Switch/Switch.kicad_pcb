@@ -1236,10 +1236,10 @@
 
   (gr_poly
     (pts
-      (xy 111.76 50.8)
+      (xy 116.84 50.8)
       (xy 180.34 50.8)
-      (xy 180.34 106.68)
-      (xy 111.76 106.68)
+      (xy 180.34 104.14)
+      (xy 116.84 104.14)
     )
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp e19075d7-6618-4792-ad90-2f8bc1837fc4))
@@ -1301,16 +1301,16 @@
   (segment (start 124.46 76.2) (end 124.46 78.74) (width 0.25) (layer "F.Cu") (net 11) (tstamp e8d132a9-97c1-458d-9b07-103a17dee27e))
   (segment (start 124.46 76.2) (end 121.92 76.2) (width 0.25) (layer "F.Cu") (net 11) (tstamp fab75e5d-a837-4f16-a972-0ab2cc736127))
 
-  (zone (net 2) (net_name "GND") (layer "B.Cu") (tstamp c610c218-2002-44df-b9d0-8dd0c174a1fa) (hatch edge 0.5)
+  (zone (net 2) (net_name "GND") (layers "F&B.Cu") (tstamp eef09238-333f-4dd6-8e74-693e8a7ab896) (hatch edge 0.5)
     (connect_pads (clearance 0.5))
     (min_thickness 0.25) (filled_areas_thickness no)
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
-        (xy 114.3 53.34)
+        (xy 119.38 53.34)
         (xy 177.8 53.34)
-        (xy 177.8 104.14)
-        (xy 114.3 104.14)
+        (xy 177.8 101.6)
+        (xy 119.38 101.6)
       )
     )
   )
