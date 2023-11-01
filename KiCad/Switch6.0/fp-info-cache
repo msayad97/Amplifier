@@ -1,4 +1,4 @@
-40434751922444
+38518381658332
 Connector
 Banana_Cliff_FCR7350x_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -104,13 +104,6 @@ connector JWT A3963 pinhead
 0
 2
 2
-Connector
-Joint-Tech_C5080WR-04P_1x04_P5.08mm_Vertical
-C5080 SERIES 90° Wafer, (https://datasheet.lcsc.com/lcsc/1912261836_HR-Joint-Tech-Elec-C5080WR-04P_C477015.pdf)
-connector side-entry ATA PATA IDE 5.25 inch floppy drive power
-0
-6
-5
 Connector
 NS-Tech_Grove_1x04_P2mm_Vertical
 https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
