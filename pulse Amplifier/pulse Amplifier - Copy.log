@@ -1,0 +1,158 @@
+Circuit: * C:\Users\msaya\Documents\Github\Amplifier\pulse Amplifier.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+c42: both pins shorted together -- ignoring.
+r29: both pins shorted together -- ignoring.
+r34: both pins shorted together -- ignoring.
+r40: both pins shorted together -- ignoring.
+r43: both pins shorted together -- ignoring.
+r30: both pins shorted together -- ignoring.
+r37: both pins shorted together -- ignoring.
+r41: both pins shorted together -- ignoring.
+r44: both pins shorted together -- ignoring.
+d9.2: both pins shorted together -- ignoring.
+c142: Increased Cpar to 6e-11
+c21: Increased Cpar to 6e-11
+c22: Increased Cpar to 6e-11
+Limiting rise time of source v2 to 1e-08
+Limiting fall time of source v2 to 1e-08
+WARNING: Node N016 is floating.
+WARNING: Node N032 is floating.
+WARNING: Node N033 is floating.
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node nc_01.  This node is used by v2.
+WARNING: Less than two connections to node nc_02.  This node is used by v2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Heightened Def Con from 1.25474e-09 to 1.2567e-09
+Heightened Def Con from 1.52855e-09 to 2.53051e-09
+Heightened Def Con from 2.79859e-09 to 2.80054e-09
+Heightened Def Con from 2.88815e-09 to 2.89206e-09
+Heightened Def Con from 2.96433e-09 to 3.21433e-09
+Heightened Def Con from 3.67759e-09 to 4.67955e-09
+Heightened Def Con from 4.69549e-09 to 4.69768e-09
+Heightened Def Con from 5.85842e-09 to 6.86037e-09
+Heightened Def Con from 7.05182e-09 to 9.05182e-09
+Heightened Def Con from 1.01646e-08 to 1.01665e-08
+Heightened Def Con from 1.01705e-08 to 1.11725e-08
+Heightened Def Con from 1.19181e-08 to 1.192e-08
+Heightened Def Con from 1.27768e-08 to 1.37788e-08
+Heightened Def Con from 1.38249e-08 to 1.38249e-08
+Heightened Def Con from 1.38249e-08 to 1.38249e-08
+Heightened Def Con from 1.3825e-08 to 1.3825e-08
+Heightened Def Con from 1.38251e-08 to 1.58251e-08
+Heightened Def Con from 1.62086e-08 to 1.62106e-08
+Heightened Def Con from 1.62106e-08 to 1.82106e-08
+Heightened Def Con from 2.03005e-08 to 2.13007e-08
+Heightened Def Con from 2.13009e-08 to 2.13031e-08
+Heightened Def Con from 2.13032e-08 to 2.13034e-08
+Heightened Def Con from 2.13035e-08 to 2.13037e-08
+Heightened Def Con from 2.13043e-08 to 2.33043e-08
+Heightened Def Con from 2.48772e-08 to 2.48812e-08
+Heightened Def Con from 2.48852e-08 to 2.68852e-08
+Heightened Def Con from 3.08271e-08 to 3.08311e-08
+Heightened Def Con from 3.12139e-08 to 3.12178e-08
+Heightened Def Con from 4.02736e-08 to 4.13986e-08
+Heightened Def Con from 4.19797e-08 to 4.19819e-08
+Heightened Def Con from 4.1982e-08 to 4.19822e-08
+Heightened Def Con from 4.19824e-08 to 4.29843e-08
+Heightened Def Con from 4.29951e-08 to 4.2997e-08
+Heightened Def Con from 4.29972e-08 to 4.39992e-08
+Heightened Def Con from 4.52364e-08 to 4.54864e-08
+Heightened Def Con from 4.58887e-08 to 4.58926e-08
+Heightened Def Con from 4.61389e-08 to 4.61429e-08
+Heightened Def Con from 4.77084e-08 to 4.88334e-08
+Heightened Def Con from 5.00026e-08 to 5.10046e-08
+Heightened Def Con from 5.20405e-08 to 5.40405e-08
+Heightened Def Con from 5.65515e-08 to 5.75535e-08
+Heightened Def Con from 5.7962e-08 to 5.79659e-08
+Heightened Def Con from 5.83478e-08 to 5.83517e-08
+Heightened Def Con from 7.37223e-08 to 7.47243e-08
+Heightened Def Con from 7.62082e-08 to 7.82082e-08
+Heightened Def Con from 7.97308e-08 to 8.17308e-08
+Heightened Def Con from 8.47265e-08 to 8.57284e-08
+Heightened Def Con from 8.78613e-08 to 8.78615e-08
+Heightened Def Con from 8.78618e-08 to 8.78619e-08
+Heightened Def Con from 8.78621e-08 to 8.78624e-08
+Heightened Def Con from 8.78629e-08 to 8.88649e-08
+Heightened Def Con from 8.98971e-08 to 9.08991e-08
+Heightened Def Con from 9.45151e-08 to 9.4519e-08
+Heightened Def Con from 9.82685e-08 to 9.82705e-08
+Heightened Def Con from 9.90557e-08 to 9.90576e-08
+Heightened Def Con from 9.92951e-08 to 1.00297e-07
+Heightened Def Con from 1.00475e-07 to 1.00475e-07
+Heightened Def Con from 1.00475e-07 to 1.00493e-07
+Heightened Def Con from 1.03778e-07 to 1.0378e-07
+Heightened Def Con from 1.0378e-07 to 1.0578e-07
+Heightened Def Con from 0.000999951 to 0.000999952
+Heightened Def Con from 0.000999953 to 0.000999953
+Heightened Def Con from 0.000999953 to 0.000999955
+Heightened Def Con from 0.000999991 to 0.000999992
+Heightened Def Con from 0.000999992 to 0.000999993
+Heightened Def Con from 0.000999993 to 0.000999993
+Heightened Def Con from 0.000999993 to 0.000999994
+Heightened Def Con from 0.000999995 to 0.000999996
+Heightened Def Con from 0.000999996 to 0.000999996
+Heightened Def Con from 0.000999996 to 0.000999996
+Heightened Def Con from 0.000999997 to 0.000999997
+Heightened Def Con from 0.000999997 to 0.000999998
+Heightened Def Con from 0.001 to 0.001
+Heightened Def Con from 0.001 to 0.001
+Heightened Def Con from 0.001 to 0.001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100001 to 0.00100001
+Heightened Def Con from 0.00100002 to 0.00100002
+Heightened Def Con from 0.00100002 to 0.00100002
+Heightened Def Con from 0.00100002 to 0.00100002
+Heightened Def Con from 0.00100002 to 0.00100003
+
+Date: Thu Jun 15 22:39:28 2023
+Total elapsed time: 1.512 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 129434
+traniter = 129002
+tranpoints = 21180
+accept = 15500
+rejected = 5771
+matrix size = 107
+fillins = 103
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 14.40 KB object code size  2.4/1.5/[1.2]
+Matrix Compiler2: 11.01 KB object code size  0.8/1.0/[0.4]
+
