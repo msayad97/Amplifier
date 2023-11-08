@@ -626,7 +626,6 @@
     )
   )
 
-
   (junction (at 158.75 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 0ca6fcac-2e56-4511-b0ec-7aced9010d10)
   )
@@ -933,7 +932,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 71.12 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 16f870ba-2f0a-423c-93f7-b68a39f617e3)
-    (property "Reference" "V58" (id 0) (at 71.12 73.66 0))
+    (property "Reference" "VTackt1" (id 0) (at 71.12 73.66 0))
     (property "Value" "Conn_01x01" (id 1) (at 71.12 76.2 0))
     (property "Footprint" "Connector:Banana_Jack_1Pin" (id 2) (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1207,7 +1206,7 @@
     (property "Value" "BAT54XV2T5G" (id 1) (at 147.32 110.4899 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 144.78 109.22 0)
+    (property "Footprint" "Library:D_SOD-523_new" (id 2) (at 144.78 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 109.22 0)
@@ -1263,7 +1262,7 @@
     (uuid d73b824c-b3b6-4063-b940-a86ee2bf0204)
     (property "Reference" "D1" (id 0) (at 107.95 64.77 0))
     (property "Value" "BAT54XV2T5G" (id 1) (at 107.95 67.31 0))
-    (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 107.95 71.12 0)
+    (property "Footprint" "Library:D_SOD-523_new" (id 2) (at 107.95 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 107.95 71.12 0)
@@ -1373,10 +1372,10 @@
       (reference "C18") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d73b824c-b3b6-4063-b940-a86ee2bf0204"
-      (reference "D1") (unit 1) (value "BAT54XV2T5G") (footprint "Diode_SMD:D_SOD-523")
+      (reference "D1") (unit 1) (value "BAT54XV2T5G") (footprint "Library:D_SOD-523_new")
     )
     (path "/bf88f533-a4f9-4f1e-9654-670f7fbb62bb"
-      (reference "D8") (unit 1) (value "BAT54XV2T5G") (footprint "Diode_SMD:D_SOD-523")
+      (reference "D8") (unit 1) (value "BAT54XV2T5G") (footprint "Library:D_SOD-523_new")
     )
     (path "/f9ad1dc2-f892-4f68-ab24-4b655bfddfdd"
       (reference "GNDall1") (unit 1) (value "Conn_01x01") (footprint "Connector:Banana_Jack_1Pin")
@@ -1421,7 +1420,7 @@
       (reference "V56") (unit 1) (value "Conn_01x01") (footprint "Connector:Banana_Jack_1Pin")
     )
     (path "/16f870ba-2f0a-423c-93f7-b68a39f617e3"
-      (reference "V58") (unit 1) (value "Conn_01x01") (footprint "Connector:Banana_Jack_1Pin")
+      (reference "VTackt1") (unit 1) (value "Conn_01x01") (footprint "Connector:Banana_Jack_1Pin")
     )
     (path "/6c1044d2-7ea5-4cdc-815d-7e2935d72573"
       (reference "Vout1") (unit 1) (value "Conn_01x01") (footprint "Connector:Banana_Jack_1Pin")
