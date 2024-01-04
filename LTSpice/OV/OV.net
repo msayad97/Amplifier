@@ -1,0 +1,28 @@
+* C:\Users\msaya\Desktop\LTSpice\OV\OV.asc
+C34 N006 N005 4.7n
+C28 0 N001 0.1µ
+C41 N008 0 0.1µ
+C42 N003 N008 10p
+R48 N006 0 100
+R45 N002 N006 100
+R49 N006 0 100
+R46 N002 N007 100
+R36 N001 Vp 2.2
+R50 N008 Vn 2.2
+R57 N002 0 470
+R51 N004 N002 470
+CR51 N004 N002 10p
+D5.1 Vn N002 BAT54XV2T1G
+D5.2 N002 Vp BAT54XV2T1G
+V3 Vp 0 8
+V4 Vn 0 -4
+V5 Vd 0 5
+XU1 N007 N002 N001 N008 N004 N003 AD8021
+V7 N005 0 PULSE(0 20V 0.5u 0 0 0.5u 1u 4)
+.model D D
+.lib C:\Users\msaya\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 5us
+.lib C:\Users\msaya\Documents\Github\Amplifier\libs\Bib.LIB
+.lib C:\Users\msaya\Downloads\ad8021.txt
+.backanno
+.end
