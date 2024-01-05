@@ -1,4 +1,4 @@
-* AD8021 Spice Model
+* AD8021 Spice Model             
 * Description: Amplifier
 * Generic Desc: 250MHz very low noise op amp
 * Developed by: TRW
@@ -12,12 +12,12 @@
 * BEGIN Notes:
 *
 * Not Modeled:
-*       distortion is not characterized
+*       distortion is not characterized       
 *       disable is not characterized
 *
 * Parameters modeled include:
 *       open loop gain and phase vs. frequency
-*       output voltage
+*       output voltage 
 *       Common Mode Rejection
 *       input common mode voltage range
 *       slew rate
@@ -34,8 +34,8 @@
 *                   |    |    |    negative supply
 *                   |    |    |    |    output
 *                   |    |    |    |    |     Ccomp
-*                   |    |    |    |    |     |
-.subckt AD8021      +I   -I   +V   -V   Vo    Cc
+*                   |    |    |    |    |     | 
+.subckt AD8021      +I   -I   +V   -V   O     C
 
 ***** Input stage
 
@@ -51,7 +51,7 @@ Ibias 8 50 840u
 ***** Input Error Sources
 
 eos 2 3 poly(2) 30 98 64 98 39.6e-3 1 1e-3
-gnoise1 98 1 33 98 1e-4
+gnoise1 98 1 33 98 1e-4 
 gnoise2 98 2 33 98 1e-4
 
 Cin+ 1 0 2pF
@@ -140,7 +140,7 @@ Fsy- 0 50 poly(2) viout- vo2 6.243e-3 1 1
 .model nbjt npn(bf=56)
 .model dn d(kf=1e-13,af=0.55)
 .ends
-
+                      
 
 
 

@@ -1,0 +1,8 @@
+Circuit: * C:\Users\msaya\Desktop\LTSpice\OVK\inv\inv.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+r14: both pins shorted together -- ignoring.
+r17: both pins shorted together -- ignoring.

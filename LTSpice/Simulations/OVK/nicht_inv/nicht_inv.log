@@ -1,0 +1,70 @@
+Circuit: * C:\Users\msaya\Desktop\LTSpice\OVK\nicht_inv\nicht_inv.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+r14: both pins shorted together -- ignoring.
+r17: both pins shorted together -- ignoring.
+WARNING: Node N017 is floating.
+
+WARNING: Less than two connections to node vd.  This node is used by v5.
+WARNING: Less than two connections to node n017.  This node is used by c32.
+WARNING: Less than two connections to node u2:61.  This node is used by v:u2:cd.
+WARNING: Less than two connections to node bias1.  This node is used by r15.
+WARNING: Less than two connections to node bias2.  This node is used by r18.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.1391
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.14123
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+vernier = 0.015625
+Source Step = 99.9941%
+Source Step = 100%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.5682%
+Source Step = 99.0535%
+Source Step = 99.1719%
+Source Step = 99.2902%
+Source Step = 99.4086%
+Source Step = 99.527%
+vernier = 0.00585938
+Source Step = 99.669%
+Source Step = 99.8466%
+Source Step = 99.9931%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping failed
+
+Singular matrix:  Check nodes u2:9 and u2:29
+   Iteration No. 16
+Fatal Error: Singular matrix:  check nodes u2:9 and u2:29
+   Iteration No. 16
+
+This circuit has floating nodes.

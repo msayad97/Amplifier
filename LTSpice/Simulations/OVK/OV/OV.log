@@ -1,0 +1,79 @@
+Circuit: * C:\Users\msaya\Desktop\LTSpice\OV\OV.asc
+
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+WARNING: Node N012 is floating.
+WARNING: Node N013 is floating.
+
+WARNING: Less than two connections to node n012.  This node is used by c42.
+WARNING: Less than two connections to node n016.  This node is used by r46.
+WARNING: Less than two connections to node vd.  This node is used by v5.
+WARNING: Less than two connections to node u1:45.  This node is used by v:u1:out.
+WARNING: Less than two connections to node n013.  This node is used by c32.
+WARNING: Less than two connections to node u2:61.  This node is used by v:u2:cd.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.15662
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.15992
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Singular matrix:  Check node u2:9
+   Iteration No. 2
+Gmin = 0
+Singular matrix:  Check node u2:9
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 79.5455%
+Source Step = 85.7955%
+Source Step = 87.6894%
+Source Step = 89.5833%
+Source Step = 91.4773%
+Source Step = 93.3712%
+Source Step = 95.2652%
+vernier = 0.015625
+Source Step = 95.5492%
+Source Step = 96.0227%
+Source Step = 96.4962%
+Source Step = 96.9697%
+Source Step = 97.4432%
+vernier = 0.0234375
+Source Step = 98.1297%
+Source Step = 98.84%
+Source Step = 99.5502%
+Source Step = 99.9852%
+Source Step = 100%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+vernier = 0.015625
+Source Step = 99.9941%
+Source Step = 100%
+Source stepping failed
+
+Singular matrix:  Check nodes u2:9 and u2:45
+   Iteration No. 2
+Fatal Error: Singular matrix:  check nodes u2:9 and u2:45
+   Iteration No. 2
+
+This circuit has floating nodes.
