@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: M:\ud\demo\projects\EWI\IWM37H-01 Low Cost MRI\04_Elektronisch Ontwerp\schakeling\MRIAMP.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_4|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=78.74
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

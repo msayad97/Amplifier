@@ -1,0 +1,3 @@
+The frontpanels have been drawn with Front Panel Designer which
+can be downloaded from Schaeffer AG. This is also where the panels
+were ordered from.
