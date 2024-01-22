@@ -1,4 +1,4 @@
-Circuit: * C:\Users\msaya\Desktop\LTSpice\OVK\inv\inv.asc
+Circuit: * C:\Users\msaya\Desktop\LTSpice\Simulations\OVK\inv\inv.asc
 
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
@@ -6,3 +6,54 @@ Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 r14: both pins shorted together -- ignoring.
 r17: both pins shorted together -- ignoring.
+WARNING: Less than two connections to node vd.  This node is used by v5.
+WARNING: Less than two connections to node bias1.  This node is used by r15.
+WARNING: Less than two connections to node bias2.  This node is used by r18.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 5.75385e-05
+vernier = 0.333333
+vernier = 0.444444
+Gmin = 2.6708e-05
+vernier = 0.592592
+Gmin = 7.90433e-06
+vernier = 0.790123
+vernier = 1
+Gmin = 1.19514e-06
+Gmin = 1.28327e-07
+Gmin = 1.3779e-08
+Gmin = 1.47951e-09
+Gmin = 1.58861e-10
+Gmin = 1.70576e-11
+Gmin = 1.83154e-12
+Gmin = 1.9666e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Jan 22 19:47:11 2024
+Total elapsed time: 0.139 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4637
+traniter = 3925
+tranpoints = 1711
+accept = 1414
+rejected = 297
+matrix size = 57
+fillins = 26
+solver = Normal
+Avg thread counts: 1.2/1.4/1.4/1.2
+Matrix Compiler1: 5.63 KB object code size  1.1/0.5/[0.3]
+Matrix Compiler2: off  [0.4]/0.5/0.4
+
