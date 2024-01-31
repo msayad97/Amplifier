@@ -6,8 +6,16 @@ Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 r14: both pins shorted together -- ignoring.
 r17: both pins shorted together -- ignoring.
-Error on line 113 : l1 n001 n003 l
+Error on line 113 : l1 n004 n006 l
 	 Unknown parameter "l"
-Error on line 114 : l2 n003 n002 l
+Error on line 114 : l2 n006 n005 l
+	 Unknown parameter "l"
+Error on line 116 : l3 n004 n002 l
+	 Unknown parameter "l"
+Error on line 117 : l4 n005 n002 l
+	 Unknown parameter "l"
+Error on line 118 : l5 n001 0 l
+	 Unknown parameter "l"
+Error on line 119 : l6 n001 0 l
 	 Unknown parameter "l"
 Fatal Error: Missing inductance value for "l1"
