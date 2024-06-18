@@ -1,4 +1,4 @@
-Circuit: * C:\Users\msaya\Desktop\LTSpice\Simulations\OVK\Schaltung\Schaltung.asc
+Circuit: * C:\Users\msaya\Desktop\MSA\LTSpice\Simulations\OVK\Schaltung\Schaltung.asc
 
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
