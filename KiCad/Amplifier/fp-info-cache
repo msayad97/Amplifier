@@ -1,4 +1,4 @@
-23588773516595004
+23597373578556412
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64379,6 +64379,13 @@ Yellow 5381 Series LED
 2
 2
 Library
+BLF188XUR
+
+
+0
+0
+0
+Library
 BLM21PG300SN1B
 
 
@@ -64386,12 +64393,40 @@ BLM21PG300SN1B
 2
 2
 Library
+D_SOD-523_new
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
+Library
+MOLEX_26013115
+
+
+0
+4
+4
+Library
+PVG3A
+
+
+0
+3
+3
+Library
 SOIC (SO-8)
 
 
 0
 8
 8
+Library
+TO-247-3_MOSFET
+TO-247-3, Vertical, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html
+TO-247-3 Vertical RM 5.45mm
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

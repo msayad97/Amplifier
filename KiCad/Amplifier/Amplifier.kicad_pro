@@ -339,11 +339,155 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -390,6 +534,30 @@
     [
       "959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5",
       "Root"
+    ],
+    [
+      "911c4e90-f560-4b90-b362-2a5bcb196d1c",
+      "Switch"
+    ],
+    [
+      "ac42f7f1-e0b6-4538-8522-56dbee4978de",
+      "Bias"
+    ],
+    [
+      "b22230b6-ff9f-49d2-9fcd-137a9f962d5c",
+      "Voltage Supply"
+    ],
+    [
+      "36e14033-c3ff-4eaf-aa96-3a5028c6b2c4",
+      "OPV1"
+    ],
+    [
+      "0fd92913-fffc-43bb-bffd-f9f40efdc060",
+      "OPV2"
+    ],
+    [
+      "707f56da-3d79-40d5-8ab6-c762948ea642",
+      "HF Part"
     ]
   ],
   "text_variables": {}
