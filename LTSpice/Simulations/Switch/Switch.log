@@ -1,4 +1,4 @@
-Circuit: * C:\Users\msaya\Desktop\MSA\LTSpice\Simulations\Switch\Switch.asc
+Circuit: * C:\Users\msaya\Desktop\MA\LTSpice\Simulations\Switch\Switch.asc
 
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
@@ -85,21 +85,21 @@ Ignoring empty pin current: Ix(u1:3)
 Ignoring empty pin current: Ix(u1:6)
 Ignoring empty pin current: Ix(u1:7)
 
-Date: Mon Feb 26 17:01:45 2024
-Total elapsed time: 0.305 seconds.
+Date: Mon Jul 29 11:12:22 2024
+Total elapsed time: 0.256 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 8574
-traniter = 5792
-tranpoints = 2368
-accept = 2040
-rejected = 328
+totiter = 7935
+traniter = 5153
+tranpoints = 2147
+accept = 1895
+rejected = 252
 matrix size = 62
 fillins = 41
 solver = Normal
-Avg thread counts: 1.1/3.1/1.3/1.1
-Matrix Compiler1: 6.69 KB object code size  1.2/0.9/[0.4]
-Matrix Compiler2: 6.19 KB object code size  0.5/0.8/[0.4]
+Avg thread counts: 1.1/1.3/1.3/1.1
+Matrix Compiler1:     373 opcodes  1.1/[0.5]/0.6
+Matrix Compiler2: 6.19 KB object code size  0.4/0.6/[0.4]
 

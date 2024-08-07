@@ -3995,7 +3995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2319bff1-14e7-4d56-b4e9-ebb6f8cfdb72")
-		(property "Reference" "R30"
+		(property "Reference" "R44"
 			(at 151.384 141.986 90)
 			(effects
 				(font
@@ -4047,7 +4047,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/0fd92913-fffc-43bb-bffd-f9f40efdc060"
-					(reference "R30")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4558,7 +4558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 109.5248 160.02 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43042226-b0d0-466a-a320-f2b66bd1b846")
-		(property "Reference" "R41"
+		(property "Reference" "R37"
 			(at 151.384 161.036 90)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/0fd92913-fffc-43bb-bffd-f9f40efdc060"
-					(reference "R41")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b90993c-e8df-42d1-b8c8-eaacb44c4986")
-		(property "Reference" "R37"
+		(property "Reference" "R41"
 			(at 151.384 152.146 90)
 			(effects
 				(font
@@ -5335,7 +5335,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/0fd92913-fffc-43bb-bffd-f9f40efdc060"
-					(reference "R37")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5411,6 +5411,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:BD140")
 		(at 101.6 156.21 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5418,7 +5419,7 @@
 		(dnp no)
 		(uuid "740f547c-d16c-47ac-8679-fe0a645287f7")
 		(property "Reference" "Q9"
-			(at 105.918 152.146 0)
+			(at 105.918 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5428,7 @@
 			)
 		)
 		(property "Value" "BD140"
-			(at 105.918 154.686 0)
+			(at 105.918 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5437,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 106.68 158.115 0)
+			(at 106.68 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f02c14f-7e37-47cf-b4ba-6c0a4781a0b0")
-		(property "Reference" "R44"
+		(property "Reference" "R30"
 			(at 151.384 169.926 90)
 			(effects
 				(font
@@ -5814,7 +5815,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/0fd92913-fffc-43bb-bffd-f9f40efdc060"
-					(reference "R44")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 173.6852 45.72 0)
 			(effects
 				(font
@@ -6742,7 +6743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 89.8652 86.36 0)
 			(effects
 				(font
@@ -7213,7 +7214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 171.7548 76.2 0)
 			(effects
 				(font
@@ -7674,6 +7675,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:BD140")
 		(at 163.83 68.58 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7681,7 +7683,7 @@
 		(dnp no)
 		(uuid "ffa677ec-a2f1-4169-b953-d1f366ff3ec0")
 		(property "Reference" "Q10"
-			(at 168.148 64.516 0)
+			(at 168.148 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7692,7 @@
 			)
 		)
 		(property "Value" "BD140"
-			(at 168.148 67.056 0)
+			(at 168.148 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7701,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 168.91 70.485 0)
+			(at 168.91 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +7776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 111.4552 133.35 0)
 			(effects
 				(font
@@ -7844,7 +7846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 106.3752 46.99 0)
 			(effects
 				(font
