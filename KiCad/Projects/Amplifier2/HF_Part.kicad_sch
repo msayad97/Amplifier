@@ -3401,12 +3401,6 @@
 		(uuid "0ba4e521-d3f9-4d3f-89e4-5bec05aea2f1")
 	)
 	(junction
-		(at 74.93 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d4afa36-6a75-4e58-aa5c-a8805c355c87")
-	)
-	(junction
 		(at 21.59 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3844,6 +3838,12 @@
 		(color 0 0 0 0)
 		(uuid "efdd76f3-24cd-48f0-8437-4eebf5c35463")
 	)
+	(junction
+		(at 74.93 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff5d7da4-68ec-4df4-919d-7a9a697979a9")
+	)
 	(wire
 		(pts
 			(xy 49.53 63.5) (xy 49.53 74.93)
@@ -4246,7 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 167.64) (xy 74.93 168.91)
+			(xy 74.93 153.67) (xy 74.93 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 177.8) (xy 58.42 175.26)
+			(xy 58.42 177.8) (xy 58.42 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4803,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "7e068752-0e37-4b6f-8049-cff5c46ecdc5")
-	)
-	(wire
-		(pts
-			(xy 74.93 153.67) (xy 74.93 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee73b7e-c33d-43da-9169-02d3f4903c25")
 	)
 	(wire
 		(pts
@@ -5536,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 167.64) (xy 74.93 167.64)
+			(xy 58.42 168.91) (xy 74.93 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5744,7 +5734,7 @@
 		(uuid "4945496c-56c9-446c-96d2-e08bb765e177")
 	)
 	(label "RFB1"
-		(at 68.58 167.64 0)
+		(at 68.58 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7338,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 171.45 180)
+		(at 58.42 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7346,7 +7336,7 @@
 		(dnp no)
 		(uuid "3947e50d-d7d8-4039-b167-0d3422af0e77")
 		(property "Reference" "C20"
-			(at 55.626 170.434 0)
+			(at 55.626 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7345,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 55.626 172.212 0)
+			(at 55.626 173.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7354,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 57.4548 167.64 0)
+			(at 57.4548 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 171.45 0)
+			(at 58.42 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +7372,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 171.45 0)
+			(at 58.42 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HF:E5-13"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 68.8848 25.4 0)
 			(effects
 				(font
@@ -9999,7 +9989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10n"
 			(at 53.848 100.838 0)
 			(effects
 				(font
@@ -10212,7 +10202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HF:153CLV-1014"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 49.53 56.8452 0)
 			(effects
 				(font
@@ -11060,7 +11050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HF:153CLV-1014"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
 			(at 21.59 110.1852 0)
 			(effects
 				(font

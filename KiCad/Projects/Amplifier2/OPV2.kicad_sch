@@ -7683,7 +7683,7 @@
 		(dnp no)
 		(uuid "ffa677ec-a2f1-4169-b953-d1f366ff3ec0")
 		(property "Reference" "Q10"
-			(at 168.148 72.644 0)
+			(at 169.672 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)

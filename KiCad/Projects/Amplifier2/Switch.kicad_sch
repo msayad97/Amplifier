@@ -5853,7 +5853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 94.742 74.93 90)
 			(effects
 				(font
@@ -6315,8 +6315,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65cb435-5d4b-41a5-b6a0-827cda589f7b")
-		(property "Reference" "R1.2"
-			(at 78.74 118.11 0)
+		(property "Reference" "RV2"
+			(at 78.74 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6325,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 78.74 120.65 0)
+			(at 78.74 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6369,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/911c4e90-f560-4b90-b362-2a5bcb196d1c"
-					(reference "R1.2")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -6520,8 +6520,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d23fa4de-ce57-461a-bf60-0ac67c603b30")
-		(property "Reference" "R1.1"
-			(at 78.74 106.68 0)
+		(property "Reference" "RV1"
+			(at 78.74 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 78.74 109.22 0)
+			(at 78.74 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6574,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/959c1323-2e5d-4cfd-bd7b-6fba2b4a12d5/911c4e90-f560-4b90-b362-2a5bcb196d1c"
-					(reference "R1.1")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
