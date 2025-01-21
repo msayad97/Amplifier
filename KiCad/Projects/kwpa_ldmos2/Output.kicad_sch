@@ -1,0 +1,10952 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "728c267e-6d7a-40a3-b851-fb2e30bab4e4")
+	(paper "User" 297.002 229.159)
+	(lib_symbols
+		(symbol "kwpa_ldmos2-eagle-import:diode_DIODE-SMB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -2.3114 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:SMB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "diode_DIODE-SMB_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SpiceOrder 1"
+					(at -2.54 0 0)
+					(effects
+						(font
+							(size 0.4064 0.3454)
+						)
+					)
+				)
+				(text "SpiceOrder 2"
+					(at 2.54 0 0)
+					(effects
+						(font
+							(size 0.4064 0.3454)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_HF_SPULE_1W30X12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -4.572 2.286 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -4.572 -2.794 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:KERN90_STEHEND_2PIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_HF_SPULE_1W30X12_1_0"
+				(arc
+					(start -3.3866 -0.254)
+					(mid -4.2333 0.5927)
+					(end -5.08 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.6934 -0.254)
+					(mid -2.54 0.5926)
+					(end -3.3866 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.254)
+					(mid -0.8467 0.5927)
+					(end -1.6934 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.143) (xy -4.318 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 1.143) (xy -2.794 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.143) (xy -1.27 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.143) (xy 0.254 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.143) (xy 1.778 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.143) (xy 3.356 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.143) (xy 4.88 1.143)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.6934 -0.254)
+					(mid 0.8467 0.5927)
+					(end 0 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.3866 -0.254)
+					(mid 2.5399 0.5927)
+					(end 1.6932 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -0.254)
+					(mid 4.2333 0.5927)
+					(end 3.3866 -0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1WMANTEL_STEHEND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at -4.572 6.096 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -4.572 -7.874 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:DOPPELLMANTEL_STEHEND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_HF_TRAFO_1W_1WMANTEL_STEHEND_1_0"
+				(arc
+					(start -2.54 -4.2334)
+					(mid -1.6933 -3.3867)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.6933 -1.6933)
+					(end -2.54 -0.8466)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.8466)
+					(mid -1.6934 0)
+					(end -2.54 0.8466)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0.8466)
+					(mid -1.6933 1.6933)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.6933 3.3867)
+					(end -2.54 4.2334)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.318) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -5.08) (xy -1.143 -4.318)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -3.556) (xy -1.143 -2.794)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -2.032) (xy -1.143 -1.27)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -0.508) (xy -1.143 0.254)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.016) (xy -1.143 1.778)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 2.54) (xy -1.143 3.356)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 4.064) (xy -1.143 4.88)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -3.3866)
+					(mid -0.5927 -4.2333)
+					(end 0.254 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.6934)
+					(mid -0.5926 -2.54)
+					(end 0.254 -3.3866)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 0)
+					(mid -0.5927 -0.8467)
+					(end 0.254 -1.6934)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.6934)
+					(mid -0.5927 0.8467)
+					(end 0.254 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 3.3866)
+					(mid -0.5927 2.5399)
+					(end 0.254 1.6932)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 5.08)
+					(mid -0.5927 4.2333)
+					(end 0.254 3.3866)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "*"
+					(at -3.4925 3.175 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "*"
+					(at 0.3175 3.4925 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1W_GERADE_DOPPELROHR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at 4.572 -1.016 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" ""
+				(at 4.572 5.334 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:DOPPELRINGKERN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_HF_TRAFO_1W_1W_GERADE_DOPPELROHR_1_0"
+				(arc
+					(start -5.08 2.794)
+					(mid -4.2333 1.9473)
+					(end -3.3866 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.3866 2.794)
+					(mid -2.5399 1.9473)
+					(end -1.6932 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -3.3867 0.8467)
+					(end -4.2334 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.6934 2.794)
+					(mid -0.8467 1.9473)
+					(end 0 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.8466 0)
+					(mid -1.6933 0.8467)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 1.397) (xy -4.88 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.397) (xy -3.356 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.397) (xy -1.778 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy -0.254 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.397) (xy 1.27 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.397) (xy 2.794 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.397) (xy 4.318 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.794)
+					(mid 0.8467 1.9473)
+					(end 1.6934 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.8466 0)
+					(mid 0 0.8466)
+					(end -0.8466 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.6934 2.794)
+					(mid 2.54 1.9474)
+					(end 3.3866 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.6933 0.8467)
+					(end 0.8466 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.3866 2.794)
+					(mid 4.2333 1.9473)
+					(end 5.08 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.2334 0)
+					(mid 3.3867 0.8467)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "*"
+					(at -3.4925 2.8575 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "*"
+					(at -3.175 -0.9525 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1W_GERADE_DOPPELROHRREVERSE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at 4.572 -1.016 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right top)
+				)
+			)
+			(property "Value" ""
+				(at 4.572 5.334 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:DOPPELRINGKERN_REV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_HF_TRAFO_1W_1W_GERADE_DOPPELROHRREVERSE_1_0"
+				(arc
+					(start -5.08 2.794)
+					(mid -4.2333 1.9473)
+					(end -3.3866 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.3866 2.794)
+					(mid -2.5399 1.9473)
+					(end -1.6932 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -3.3867 0.8467)
+					(end -4.2334 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.6934 2.794)
+					(mid -0.8467 1.9473)
+					(end 0 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.8466 0)
+					(mid -1.6933 0.8467)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 1.397) (xy -4.88 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.397) (xy -3.356 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.397) (xy -1.778 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy -0.254 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.397) (xy 1.27 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.397) (xy 2.794 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.397) (xy 4.318 1.397)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.794)
+					(mid 0.8467 1.9473)
+					(end 1.6934 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.8466 0)
+					(mid 0 0.8466)
+					(end -0.8466 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.6934 2.794)
+					(mid 2.54 1.9474)
+					(end 3.3866 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.6933 0.8467)
+					(end 0.8466 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.3866 2.794)
+					(mid 4.2333 1.9473)
+					(end 5.08 2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.2334 0)
+					(mid 3.3867 0.8467)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "*"
+					(at -3.4925 2.8575 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "*"
+					(at -3.175 -0.9525 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_THICKPINSMD2,5X4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:SMDPAD2,5X4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_THICKPINSMD2,5X4_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:THICKPIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "km_THICKPINSQUARE_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:rcl_C-EUC0603K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:C0603K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "rcl_C-EUC0603K_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:C1210K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "rcl_C-EUC1210K_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:C1812K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "rcl_C-EUC1812K_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:rcl_CPOL-EU153CLV-1014"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.143 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.143 -4.5974 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:153CLV-1014"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POLARIZED CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "rcl_CPOL-EU153CLV-1014_1_0"
+				(rectangle
+					(start -1.651 -2.54)
+					(end 1.651 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.889) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -0.5842 0.4064 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:rcl_CPOL-EUE5-13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.143 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.143 -4.5974 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:E5-13"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POLARIZED CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "rcl_CPOL-EUE5-13_1_0"
+				(rectangle
+					(start -1.651 -2.54)
+					(end 1.651 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.889) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -0.5842 0.4064 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:relay_G2RE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 1.27 2.921 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "kwpa_ldmos2:G2RE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RELAY\n\n1 x switch, high current, Omron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "relay_G2RE_1_0"
+				(polyline
+					(pts
+						(xy -3.81 -1.905) (xy -1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -3.81 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy -3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "relay_G2RE_2_0"
+				(circle
+					(center -2.54 5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.905 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "O0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "O@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "P@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "S@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kwpa_ldmos2-eagle-import:supply1_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 151.13 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b19f556-3a16-424f-8d9e-06601ebd0833")
+	)
+	(junction
+		(at 86.36 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0da52d7a-d5d0-45c4-b1dc-9d3f8bc57891")
+	)
+	(junction
+		(at 86.36 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0da9d192-97bd-4414-b0a9-22f227a273c8")
+	)
+	(junction
+		(at 226.06 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f91155f-56c8-4ed1-a232-62185f1b98c1")
+	)
+	(junction
+		(at 158.75 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14880f1d-0ce3-47a6-af53-704535030cc5")
+	)
+	(junction
+		(at 151.13 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "151e1111-74bb-409e-8f84-f2b25367ccc6")
+	)
+	(junction
+		(at 128.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2687240e-4ed1-4fbb-a590-0e52c895ce07")
+	)
+	(junction
+		(at 135.89 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "272204f6-3bed-4661-a8fc-104feee92d15")
+	)
+	(junction
+		(at 120.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2724d0b6-8092-42e2-939f-b4270a80d1b3")
+	)
+	(junction
+		(at 143.51 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29f57741-f512-4aef-b4ad-9230123669a6")
+	)
+	(junction
+		(at 151.13 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c99ef9e-d4be-451f-99e9-6d8822be5e4e")
+	)
+	(junction
+		(at 158.75 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "301edbce-127a-49dc-8dc2-a6eb49687778")
+	)
+	(junction
+		(at 151.13 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373ed19a-d7e7-4d5c-b220-af2dc54d9bc7")
+	)
+	(junction
+		(at 151.13 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397c2209-8675-42b5-b9fb-da8d34fcea72")
+	)
+	(junction
+		(at 62.23 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c661254-4761-4973-be5a-23ccd95c9006")
+	)
+	(junction
+		(at 106.68 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e742a5f-7317-49e4-b133-b257e047adba")
+	)
+	(junction
+		(at 113.03 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44499591-cbc1-4b07-ad56-79518048d869")
+	)
+	(junction
+		(at 213.36 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46fd1a50-738f-45b3-9d34-40d4438e04bd")
+	)
+	(junction
+		(at 66.04 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47166f50-fd42-4227-b6e8-759f13a9d38a")
+	)
+	(junction
+		(at 168.91 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4acc09ad-0c0c-4423-942c-69e2ffea1a75")
+	)
+	(junction
+		(at 120.65 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d6140ce-bdec-4c3c-9509-b16518debb26")
+	)
+	(junction
+		(at 215.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b7e807-8fee-44a5-800a-2c100a05bdcd")
+	)
+	(junction
+		(at 143.51 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53809327-6a48-4b11-b8af-d1f0e1ea131b")
+	)
+	(junction
+		(at 78.74 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "544cb558-7d65-484e-bd37-d1aeca504498")
+	)
+	(junction
+		(at 151.13 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "588b26e4-2303-4d73-9e4f-5a65320f8dad")
+	)
+	(junction
+		(at 204.47 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b4eb3ee-9152-449e-94ce-b5041df40282")
+	)
+	(junction
+		(at 71.12 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61cefbdb-2353-4c60-954b-ee5a3062b62c")
+	)
+	(junction
+		(at 158.75 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fdc7a9-b9a5-4500-bf51-1c2b0498127b")
+	)
+	(junction
+		(at 158.75 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654d3db1-601e-4978-8fb2-f6d8059e0c04")
+	)
+	(junction
+		(at 113.03 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9d0c1c-0ef6-4d4f-92b9-b5f692694d82")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e62303a-cb35-4e12-abf0-2052792fed1e")
+	)
+	(junction
+		(at 153.67 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a658c3-c22d-4bfa-a356-c06d4dc0b5e4")
+	)
+	(junction
+		(at 199.39 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b44230-7c87-4884-86b5-4861c6c5439e")
+	)
+	(junction
+		(at 93.98 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82b599df-e752-4ad0-83d7-ba34b11b9964")
+	)
+	(junction
+		(at 135.89 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf69f13-240b-48ab-9fbb-7709f4a1fe48")
+	)
+	(junction
+		(at 158.75 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bcb9cd9-8060-4ca6-8352-d0b0b0a9614a")
+	)
+	(junction
+		(at 226.06 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab33e515-a5c3-4324-9ea7-9682835cf0c6")
+	)
+	(junction
+		(at 158.75 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3958fbd-9c65-4711-b608-22c7e68d4356")
+	)
+	(junction
+		(at 215.9 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b55ccc76-46e1-4f86-926f-d7593be4c102")
+	)
+	(junction
+		(at 158.75 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b861d86b-3dda-4e4e-9d4d-f6d3000b2925")
+	)
+	(junction
+		(at 151.13 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be139569-c861-4e13-bede-ba98d5c23fc6")
+	)
+	(junction
+		(at 93.98 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8e0961a-4343-4e05-bc6c-b0b3cdbe3618")
+	)
+	(junction
+		(at 158.75 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca86415b-5fbd-41c1-a2f3-a19846caa426")
+	)
+	(junction
+		(at 158.75 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cabb664e-00a0-4a3d-be7c-c9b5e41efa96")
+	)
+	(junction
+		(at 78.74 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a8b294-9382-4b85-a4bd-25fb0abef5dc")
+	)
+	(junction
+		(at 71.12 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc10a8b6-ef56-4212-b428-994637dea2cb")
+	)
+	(junction
+		(at 158.75 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd97cd88-5786-4e62-ae6a-85cd46a7a8f5")
+	)
+	(junction
+		(at 168.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00253da-29bc-42a8-baa5-69da6e722615")
+	)
+	(junction
+		(at 151.13 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4de124d-bdc8-46e1-b70d-0d5552a98efc")
+	)
+	(junction
+		(at 204.47 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7ff78a0-8f2c-4f14-a80e-6a21d455adf8")
+	)
+	(junction
+		(at 151.13 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9bcb9cd-4950-4cc4-829b-f180a1a7fe95")
+	)
+	(junction
+		(at 128.27 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee085d75-238d-49e5-a1e8-4c27c6ddea81")
+	)
+	(junction
+		(at 109.22 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03120bf-ae8a-45ac-b828-10dce4110c2b")
+	)
+	(junction
+		(at 213.36 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03987c4-e8fd-4623-98d2-a9a5c9e11e11")
+	)
+	(junction
+		(at 151.13 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f243dd5d-238d-4689-91d7-c3517119e795")
+	)
+	(junction
+		(at 151.13 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2870ab7-9c2b-4924-91d7-7b50c0a442f9")
+	)
+	(junction
+		(at 151.13 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9959bbb-84bf-4063-af1e-19214485a2a2")
+	)
+	(junction
+		(at 158.75 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc20967b-6068-4111-bffb-97b6c4ebd802")
+	)
+	(junction
+		(at 151.13 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd5626a5-c297-4855-9c4c-d23ed5b90e02")
+	)
+	(junction
+		(at 203.2 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd7e19ba-e7ea-49c0-b6bf-49127978af9e")
+	)
+	(wire
+		(pts
+			(xy 93.98 143.51) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0254aa24-4fb9-4466-89ef-cc01c695ed8b")
+	)
+	(wire
+		(pts
+			(xy 204.47 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02db6bf1-9f34-43f6-b5ef-8e1ac797f2dc")
+	)
+	(wire
+		(pts
+			(xy 172.72 160.02) (xy 158.75 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04edc61d-c106-4b6f-aea8-87ece4bc6060")
+	)
+	(wire
+		(pts
+			(xy 44.45 158.75) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05924779-bc91-44f9-926f-4605bd8c2004")
+	)
+	(wire
+		(pts
+			(xy 151.13 121.92) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "08063b57-f858-4a22-8c0a-2e38699e79f4")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a7ed426-2c3c-4d80-a484-695bb89a04ea")
+	)
+	(wire
+		(pts
+			(xy 151.13 121.92) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ad14aa2-21fd-4665-8019-a80a98a79a16")
+	)
+	(wire
+		(pts
+			(xy 215.9 115.57) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ad2b357-0bdf-4093-ae72-49d7c3c0aed0")
+	)
+	(wire
+		(pts
+			(xy 220.98 45.72) (xy 226.06 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ad8a2c9-77e2-41e4-9421-538fac0ebbf3")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0fa5aed2-30bf-4b41-ac8f-19accdf51fa3")
+	)
+	(wire
+		(pts
+			(xy 127 156.21) (xy 129.54 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0fe28e7c-1ce8-4262-8378-c4b504a549a9")
+	)
+	(wire
+		(pts
+			(xy 53.34 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10594fc0-34cf-4e25-9a0e-e78f909f91ba")
+	)
+	(polyline
+		(pts
+			(xy 79.375 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "107182c9-599d-48f0-881e-2f760b494d87")
+	)
+	(wire
+		(pts
+			(xy 215.9 137.16) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "122b9dd1-ffd6-48df-9e18-d3cfa73ad46a")
+	)
+	(wire
+		(pts
+			(xy 129.54 148.59) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1276671a-6682-4d3d-96fe-97e339c936e1")
+	)
+	(wire
+		(pts
+			(xy 223.52 144.78) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1411c7b0-4971-4478-afd9-1d17ad95f0d3")
+	)
+	(wire
+		(pts
+			(xy 151.13 167.64) (xy 151.13 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "14e47b85-b794-4944-a5f1-128d86220411")
+	)
+	(polyline
+		(pts
+			(xy 93.345 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "157084f8-2e98-49b3-ae8e-94414a310f19")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16e644cf-a720-479f-98c6-7d89c959f02b")
+	)
+	(wire
+		(pts
+			(xy 151.13 129.54) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18073370-640a-4e48-9db7-530a0d524971")
+	)
+	(wire
+		(pts
+			(xy 86.36 158.75) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18ccefbf-ec02-430d-af06-bc5a49208606")
+	)
+	(wire
+		(pts
+			(xy 78.74 143.51) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19cbddc0-e039-48da-b891-c4a820f1d2cb")
+	)
+	(wire
+		(pts
+			(xy 158.75 175.26) (xy 158.75 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b2c6a03-d2cb-4167-9004-c3664fb425be")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1fe6f1aa-a619-4536-b5c5-428d7736b5bd")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 109.22 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "24a8021e-4041-4f72-bcd0-4380bbc62933")
+	)
+	(wire
+		(pts
+			(xy 78.74 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26b6a213-0600-4b0a-8f64-0a1926bcdf39")
+	)
+	(wire
+		(pts
+			(xy 151.13 198.12) (xy 151.13 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28472444-3d16-4242-83ea-fa2ce07c8870")
+	)
+	(wire
+		(pts
+			(xy 151.13 190.5) (xy 151.13 198.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2cfca304-f73d-4ee4-a815-d6e76bdd6ecf")
+	)
+	(wire
+		(pts
+			(xy 111.76 156.21) (xy 106.68 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e640707-ef76-49e7-94fa-bfc52563c256")
+	)
+	(polyline
+		(pts
+			(xy 71.12 96.52) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ed8ee27-ba91-4d58-8108-6b5bbe4bb57e")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 215.9 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "330ef4b9-02e7-4bcd-9c84-4f95360f5400")
+	)
+	(wire
+		(pts
+			(xy 106.68 139.7) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33f3e0f5-c277-4b64-8de0-e6155049bf4f")
+	)
+	(wire
+		(pts
+			(xy 106.68 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34149d56-a076-4573-a648-e64148a3b0a6")
+	)
+	(wire
+		(pts
+			(xy 226.06 147.32) (xy 233.68 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36efb4d1-a58a-46a2-98c0-5bc5767d4d16")
+	)
+	(wire
+		(pts
+			(xy 86.36 146.05) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38149a25-d6b0-4310-8a34-dbea8e365478")
+	)
+	(wire
+		(pts
+			(xy 158.75 160.02) (xy 158.75 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "383f46a6-721e-44e3-93c8-71c4f3aeaaf5")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "39422fec-d0ea-45ce-a851-d94c64f9cad4")
+	)
+	(wire
+		(pts
+			(xy 215.9 114.3) (xy 215.9 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a24a399-f3b5-471c-ad40-77a867de53ce")
+	)
+	(wire
+		(pts
+			(xy 168.91 77.47) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3caa5137-1d2a-47c5-827d-3ea063879c01")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f98de60-2eb7-42fa-a55a-460335e17126")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3fc16956-a850-415c-8f93-f0fe31b3d929")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 233.68 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "400abc6e-27bb-493d-8ca7-674b9b14fce9")
+	)
+	(wire
+		(pts
+			(xy 151.13 137.16) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41bd9ebe-0dee-46d1-ba58-6a627bfacc94")
+	)
+	(wire
+		(pts
+			(xy 172.72 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4332917d-7fe2-4236-abdb-7743af441613")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "447f7326-d3c5-4df1-9887-9a837fe744c1")
+	)
+	(wire
+		(pts
+			(xy 172.72 152.4) (xy 158.75 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "453e8ced-66c1-47d6-8017-bfbe28c8451b")
+	)
+	(wire
+		(pts
+			(xy 213.36 139.7) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "458a9055-5cab-4b2c-adde-e5123ee063a4")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 151.13 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d857457-6655-417c-ad5c-638faaaaac5d")
+	)
+	(wire
+		(pts
+			(xy 71.12 161.29) (xy 71.12 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e75d136-4e38-4ea7-987e-de22fd24657a")
+	)
+	(polyline
+		(pts
+			(xy 80.01 90.805) (xy 80.01 93.98)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "4f25b4f1-d770-4bb8-8a12-882b7b3771dd")
+	)
+	(wire
+		(pts
+			(xy 78.74 161.29) (xy 78.74 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "529f5102-2fa7-48c6-bf36-ae621a0b873b")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "55b10a92-c288-470c-8c72-148b424d7479")
+	)
+	(wire
+		(pts
+			(xy 62.23 158.75) (xy 71.12 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "567b18be-3d4a-4afa-b40b-cf3f6f3c8892")
+	)
+	(wire
+		(pts
+			(xy 109.22 158.75) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59e280a6-ad73-44c2-a2eb-a2ae44db4d49")
+	)
+	(wire
+		(pts
+			(xy 213.36 149.86) (xy 213.36 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a0c153c-d409-4961-afac-2806ef077adc")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 213.36 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a38a37e-60e1-420a-846b-fdb63f577586")
+	)
+	(wire
+		(pts
+			(xy 127 160.02) (xy 151.13 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5b00dcf4-6eee-40c4-bf64-c285c79cf9e4")
+	)
+	(wire
+		(pts
+			(xy 204.47 105.41) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dc6648f-f74e-4ec0-bc65-660b3c8f48ba")
+	)
+	(wire
+		(pts
+			(xy 127 160.02) (xy 127 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6079ee5f-55d7-4225-be9d-17d9396d1b55")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "613b8a09-60a7-42e8-92f9-aff1f8cf56f1")
+	)
+	(polyline
+		(pts
+			(xy 92.075 86.36) (xy 93.345 86.36)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "61be9fa6-2173-44d2-bb12-c0cd1b3f24b7")
+	)
+	(polyline
+		(pts
+			(xy 79.375 86.36) (xy 79.375 81.28)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "6202ee40-4dcd-4da2-be86-d217de49a83f")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "676548ae-c30d-42ff-a7db-13bd201ecf37")
+	)
+	(wire
+		(pts
+			(xy 168.91 77.47) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "684f7965-d26f-4469-ad24-676b41009f16")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "698c14ca-3de4-4609-b3f3-78023939be15")
+	)
+	(wire
+		(pts
+			(xy 151.13 160.02) (xy 151.13 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6dcaee08-d422-4a16-8629-4aa50d9814cc")
+	)
+	(wire
+		(pts
+			(xy 109.22 165.1) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72a5949d-b2da-4dcd-9e92-229aa4f55b32")
+	)
+	(wire
+		(pts
+			(xy 204.47 114.3) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74c0914e-794f-481f-ae5c-85bfe63a882f")
+	)
+	(wire
+		(pts
+			(xy 129.54 156.21) (xy 129.54 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76990a24-5279-49b2-b03d-bc3f8db06f2b")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "790dbc43-2b9e-4c78-be77-138c3a432293")
+	)
+	(wire
+		(pts
+			(xy 182.88 146.05) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "798c882a-6dd5-42f9-b352-341c4cb423ad")
+	)
+	(polyline
+		(pts
+			(xy 101.6 78.74) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d1ef25a-2bac-4d10-857e-47b61b686b11")
+	)
+	(wire
+		(pts
+			(xy 233.68 34.29) (xy 203.2 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d908453-45ca-4566-8a2d-a3570934e20e")
+	)
+	(polyline
+		(pts
+			(xy 78.74 88.265) (xy 93.98 88.265)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "7ebae924-8acf-41ce-9db3-569d8d760325")
+	)
+	(wire
+		(pts
+			(xy 215.9 139.7) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f063095-98f3-4e28-8593-37df230c7e71")
+	)
+	(wire
+		(pts
+			(xy 151.13 146.05) (xy 151.13 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81116129-06c1-4b82-998f-adca8de59d3f")
+	)
+	(wire
+		(pts
+			(xy 113.03 148.59) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87061a7b-4fbb-4cb2-b935-8e96bcddb997")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 226.06 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "870a8a89-a426-4d10-ae02-8a672cea8189")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8723958f-647d-45b4-9969-d37d6d01e857")
+	)
+	(wire
+		(pts
+			(xy 78.74 158.75) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a2c6783-a4dd-4115-897f-9ddd06d491a0")
+	)
+	(wire
+		(pts
+			(xy 111.76 158.75) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8bcd6247-1358-4bf4-b740-6e4a13785d2f")
+	)
+	(wire
+		(pts
+			(xy 120.65 64.77) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9254dc9b-912f-4b90-9240-80693a7d7b0f")
+	)
+	(wire
+		(pts
+			(xy 203.2 34.29) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9307b7b9-e817-42b0-afd7-150db7973e38")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94e0edb0-93ea-48be-bc4f-5b820ad6bab5")
+	)
+	(wire
+		(pts
+			(xy 215.9 152.4) (xy 213.36 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9713ae82-0ad2-43b3-9157-667c08b6c9a3")
+	)
+	(wire
+		(pts
+			(xy 109.22 148.59) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97f9cf95-380b-4477-a5cf-0c1ae2d626c1")
+	)
+	(wire
+		(pts
+			(xy 199.39 97.79) (xy 204.47 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9aa62f48-82fe-4210-9b48-9a3e85d985d9")
+	)
+	(wire
+		(pts
+			(xy 199.39 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c5feab7-4aee-4656-8edf-3436f5c0fc1f")
+	)
+	(polyline
+		(pts
+			(xy 80.645 86.36) (xy 79.375 86.36)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "9cd93e80-f199-4ce9-8c74-0cdcead13b14")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e750db7-5687-455a-ada7-2dcc8624835b")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f5a906e-78b9-4181-b211-62acd2f2645e")
+	)
+	(wire
+		(pts
+			(xy 151.13 175.26) (xy 151.13 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f7c285c-a358-4fff-ad8e-30857798c743")
+	)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4c818c6-15af-4f9b-8a94-7badf6f96cb8")
+	)
+	(polyline
+		(pts
+			(xy 101.6 96.52) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4cdd81f-ac22-4428-9b5f-ce273b57e794")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa79602a-82ab-4bb1-9c6c-39c1b1fe92aa")
+	)
+	(wire
+		(pts
+			(xy 229.87 137.16) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa9cf6c9-ba2f-4ba3-8107-b4f35936b828")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad2e42b4-89d0-4b92-bbf5-e503f6f218e6")
+	)
+	(wire
+		(pts
+			(xy 106.68 156.21) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad47b1b9-c535-405b-94b9-99396aa7fe08")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af4d3d17-f5db-49de-a08f-3e15dd0ade32")
+	)
+	(wire
+		(pts
+			(xy 203.2 34.29) (xy 203.2 22.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af88417e-5849-4a1b-b430-f62ded657935")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1388b51-936b-4eed-b5bd-7ee224d7a5a3")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3cf5a80-ca75-427d-b3b5-31978d0edd40")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b57247c4-cead-4d5f-88fa-fc0bfcfea5dc")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b79b549d-1b64-44af-97cf-7c3582a31b74")
+	)
+	(polyline
+		(pts
+			(xy 76.2 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7f5a118-5e05-4aa7-b990-85c718bb7652")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b8a5842d-6223-4612-a522-203aa5b7e52f")
+	)
+	(wire
+		(pts
+			(xy 204.47 110.49) (xy 204.47 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba6ec498-6018-4bfd-9dfe-7887e7ef70c6")
+	)
+	(wire
+		(pts
+			(xy 86.36 161.29) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bcd534e5-fa5a-4604-8a1f-7fad6e1d9181")
+	)
+	(wire
+		(pts
+			(xy 93.98 158.75) (xy 93.98 161.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2f6e034-dff4-48b8-adec-255c9a7f28f2")
+	)
+	(wire
+		(pts
+			(xy 215.9 149.86) (xy 215.9 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c432f850-c4aa-46c1-a6c6-09f5cfeb4b10")
+	)
+	(wire
+		(pts
+			(xy 158.75 198.12) (xy 158.75 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c57da0cb-15b6-4138-90fe-7a269aa0ccdc")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 67.31 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c607bc96-976c-49f6-a725-3dc03bbdfa95")
+	)
+	(wire
+		(pts
+			(xy 204.47 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c677e7f6-791b-48ab-b140-648b150da60a")
+	)
+	(wire
+		(pts
+			(xy 226.06 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7633388-d592-4a7b-b161-65db6037313f")
+	)
+	(wire
+		(pts
+			(xy 158.75 167.64) (xy 158.75 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cab5a1be-7459-4664-a55c-6c5dc069baaf")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbb022d4-0be0-4fe6-8461-75a2d18b5504")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 226.06 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc14a256-e7a0-430a-a50a-be0ab2511f40")
+	)
+	(wire
+		(pts
+			(xy 158.75 182.88) (xy 158.75 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf000712-8f16-4839-8216-ff5e5627a2b7")
+	)
+	(wire
+		(pts
+			(xy 151.13 182.88) (xy 151.13 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf37446b-a8cd-4552-8b6a-5f337ce808d7")
+	)
+	(polyline
+		(pts
+			(xy 80.01 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "cf5dcbf8-13a4-4f3f-a067-71b777bf1c1c")
+	)
+	(polyline
+		(pts
+			(xy 93.345 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "cfa01e7d-72fe-41d1-9996-9c9c37028946")
+	)
+	(wire
+		(pts
+			(xy 158.75 129.54) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0c656e4-9a16-464a-9913-a573a5f3389f")
+	)
+	(polyline
+		(pts
+			(xy 78.74 86.995) (xy 93.98 86.995)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "d7b3e793-e2d6-452b-832b-8504123706d3")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daa739dd-de34-4fa9-b40f-5cdcf17f8dd8")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc1833b8-3dae-4ecd-b3f3-8dd076720181")
+	)
+	(polyline
+		(pts
+			(xy 93.345 86.36) (xy 93.345 81.28)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "deb0e212-0efa-49ea-b132-a63023483b0c")
+	)
+	(wire
+		(pts
+			(xy 199.39 102.87) (xy 199.39 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dfcdf500-2f46-49c5-947c-159b4ed6aad3")
+	)
+	(wire
+		(pts
+			(xy 213.36 152.4) (xy 213.36 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0518f2e-3005-4802-81cd-d5ee73b8d952")
+	)
+	(wire
+		(pts
+			(xy 67.31 81.28) (xy 67.31 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e28dd871-2108-431d-8ca2-045443ac9914")
+	)
+	(wire
+		(pts
+			(xy 182.88 160.02) (xy 213.36 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e49dce79-5d79-47a3-bcb2-123dda240c43")
+	)
+	(wire
+		(pts
+			(xy 71.12 158.75) (xy 78.74 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e68f9aa1-812d-4657-8b8c-fe79cf6154c5")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e75a5ed8-65af-4164-b46b-c2ffaa550f05")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 233.68 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e88f61c2-3ca3-491b-939f-810d1cdfe958")
+	)
+	(wire
+		(pts
+			(xy 223.52 147.32) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea471c11-9d42-4e2c-9912-ca7e9497bc60")
+	)
+	(wire
+		(pts
+			(xy 71.12 143.51) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb8ec2c2-9fe0-4aaf-8301-06a34e8a70f9")
+	)
+	(polyline
+		(pts
+			(xy 93.345 90.805) (xy 93.345 93.98)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "eccd417c-a630-4cd7-8c31-c56b855db94b")
+	)
+	(wire
+		(pts
+			(xy 229.87 157.48) (xy 233.68 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee3aa5d5-3479-40db-b8f2-1a66b89dc426")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef93265e-32d4-4e8d-a6b8-a3c789b8e622")
+	)
+	(wire
+		(pts
+			(xy 158.75 137.16) (xy 158.75 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "efcd4d5f-b97c-4abd-882c-bd7f2c8a08fd")
+	)
+	(polyline
+		(pts
+			(xy 80.645 90.805) (xy 80.01 90.805)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "f380b8ab-787d-4e2f-adf0-650e9d609e03")
+	)
+	(wire
+		(pts
+			(xy 86.36 143.51) (xy 86.36 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3a2b01e-1e75-4de8-b4bf-b6521950e799")
+	)
+	(polyline
+		(pts
+			(xy 92.075 90.805) (xy 93.345 90.805)
+		)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(uuid "f3e89d9c-fe7b-4df5-a442-b9abfaba459e")
+	)
+	(wire
+		(pts
+			(xy 158.75 144.78) (xy 158.75 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5514952-e7aa-46d4-9ae3-5bc087c70cd2")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f71b46db-164f-4d53-a381-7c5860ea6cc1")
+	)
+	(wire
+		(pts
+			(xy 158.75 190.5) (xy 158.75 198.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa4c5404-ae1b-4342-8013-1284c10e5e5c")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb1c13c0-f73e-4970-a7eb-daec491b0d64")
+	)
+	(wire
+		(pts
+			(xy 203.2 22.86) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbe96f20-c21e-42c1-ac1c-39b7fe903069")
+	)
+	(wire
+		(pts
+			(xy 128.27 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd8c32f3-0a74-4ec4-8bf8-5e4029cc6d55")
+	)
+	(arc
+		(start 80.645 90.805)
+		(mid 82.55 88.9)
+		(end 84.455 90.805)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0a535eb4-0fba-44f6-ba85-6c90d7770773)
+	)
+	(arc
+		(start 88.265 90.805)
+		(mid 90.17 88.9)
+		(end 92.075 90.805)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2205545f-53c7-4bab-a916-70038a14d217)
+	)
+	(arc
+		(start 80.645 86.36)
+		(mid 82.55 84.455)
+		(end 84.455 86.36)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41565417-06c8-46cf-b056-92129cd4d57c)
+	)
+	(arc
+		(start 84.455 90.805)
+		(mid 86.36 88.9)
+		(end 88.265 90.805)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8719fa61-f338-43cf-af92-ad0039925e98)
+	)
+	(arc
+		(start 84.455 86.36)
+		(mid 86.36 84.455)
+		(end 88.265 86.36)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8befe447-a710-4e33-b6b1-1b4ef79d9da2)
+	)
+	(arc
+		(start 88.265 86.36)
+		(mid 90.17 84.455)
+		(end 92.075 86.36)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cabd492f-d548-448d-a70f-1a9d4046596f)
+	)
+	(text "1kW Short Wave Power Amp.\nDJ0ABR  V2.0 (www.dj0abr.de)\nOutput Circuit"
+		(exclude_from_sim no)
+		(at 28.956 22.606 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+				(thickness 0.4318)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d4508fa-8ac9-4861-af04-614ecce814dd")
+	)
+	(text "WE: 742 701 15"
+		(exclude_from_sim no)
+		(at 171.45 83.82 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "10b20670-b6d1-46d5-bba2-8142b1f747bb")
+	)
+	(text "12 Wdg. 2,5qmm"
+		(exclude_from_sim no)
+		(at 173.99 72.39 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f663b28-d8c6-46e8-b31c-0e7c45974bf0")
+	)
+	(global_label "DRAIN2"
+		(shape bidirectional)
+		(at 44.45 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "75cfd609-a8fb-4e48-b234-fbd8697f6ff5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.1021 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRAIN1"
+		(shape bidirectional)
+		(at 53.34 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "b41e7fee-22ea-4e97-8297-d1e89ae476c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.9921 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a5676e-093a-4610-a81b-0ef9f63a6bc1")
+		(property "Reference" "JP14"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 238.76 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fba047bb-2e7b-4a26-9a41-f6989061fe19")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02870301-2891-4443-aae5-11ea39c1c1e7")
+		(property "Reference" "JP15"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 238.76 48.26 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5daf20bc-a16d-4417-b54b-c87b165cd4e2")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 135.89 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05784bee-6906-4f5b-bf7f-42b920e90472")
+		(property "Reference" "#GND36"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5471010c-9e1e-4fa3-8240-8aa7bcf4c841")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 71.12 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0702d3ef-d6d8-4fe6-904e-91b9aae2ac73")
+		(property "Reference" "C29"
+			(at 69.596 166.751 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 69.596 161.671 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "785311a5-a5c7-41fb-8e8b-b90a2a7a474a")
+		)
+		(pin "1"
+			(uuid "802e3b9c-cc36-492c-a531-d72eb09d56f2")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "093ec311-4683-4035-81a9-a0fa0c7c170f")
+		(property "Reference" "JP16"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 238.76 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfa35363-53b7-4654-8e5e-98cbe65366f4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f3f70b0-2d3a-4709-99a0-4c245449a9d1")
+		(property "Reference" "C34"
+			(at 153.289 120.396 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 120.396 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a15496e6-ab35-4850-bf06-d6df4f9d8bff")
+		)
+		(pin "2"
+			(uuid "564849df-6ae6-4028-84da-fddb1db5e341")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1156ba29-c530-4e1c-aac9-eea7fb522954")
+		(property "Reference" "C39"
+			(at 153.289 158.496 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 158.496 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15677aa1-f395-4b04-97cf-ecedbcba0ef7")
+		)
+		(pin "2"
+			(uuid "8dc914c8-3886-447d-a30d-980a48a243b7")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_CPOL-EU153CLV-1014")
+		(at 153.67 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1539a0f6-bd8b-4b27-bca7-8306db8cd9d7")
+		(property "Reference" "C20"
+			(at 150.6474 92.837 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "CPOL-EU153CLV-1014"
+			(at 156.6926 81.153 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:153CLV-1014"
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "277b9639-a86c-4ce1-9b1d-8ad9fe93346c")
+		)
+		(pin "-"
+			(uuid "77d5ce58-2df1-4be7-83b7-1f466ed28725")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 113.03 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1809a32a-d5d2-488a-948b-ebb09895782a")
+		(property "Reference" "#GND38"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192039c5-7820-41cb-b8f4-bf7f8a493e62")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d4099f5-29ec-42b4-8647-a2c74a69f135")
+		(property "Reference" "C46"
+			(at 153.289 105.156 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 105.156 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ea4888c-b5b2-4832-ba5c-8e40457c7de7")
+		)
+		(pin "2"
+			(uuid "2d586c02-d0df-4df3-bfb4-42ef60f18218")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_CPOL-EUE5-13")
+		(at 199.39 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f615fb3-7873-4f63-b430-de36c741085d")
+		(property "Reference" "C40"
+			(at 200.533 79.5274 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CPOL-EUE5-13"
+			(at 200.533 84.6074 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:E5-13"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "72c3fb57-c10c-469b-bcd5-6829d1c59aeb")
+		)
+		(pin "-"
+			(uuid "95b983ca-37f2-45cd-863c-866a58a68b37")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20cc2e6d-fb48-46fc-9a8a-9f02562cf34a")
+		(property "Reference" "C32"
+			(at 153.289 143.256 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 143.256 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c08ffcf-0428-4df8-b556-c7861054b789")
+		)
+		(pin "1"
+			(uuid "2d452cd9-9a00-4d13-8b07-de914447018b")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 78.74 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27c38235-1789-4910-ba4d-39c27298a61a")
+		(property "Reference" "C23"
+			(at 80.264 138.049 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 80.264 143.129 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1358d4c-4dc5-4a66-b2c6-a1635793e14f")
+		)
+		(pin "2"
+			(uuid "9ce04e69-6144-4219-87b2-887095595bc9")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 120.65 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d01d4ce-c687-4ec3-a843-fb8915bbd1cb")
+		(property "Reference" "#GND34"
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e35913-f7ee-4814-99f0-8dd071e8df30")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 218.44 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a0412f-b073-4bed-8cb5-715ebe91f989")
+		(property "Reference" "#GND51"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db403342-30b5-4571-b443-979e5d90d344")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 78.74 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35879b53-2070-43e5-a241-e069f29acfd3")
+		(property "Reference" "#GND41"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad4799ff-9e5e-4db2-b931-d9c0607952e8")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSMD2,5X4")
+		(at 76.2 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39c15864-a69f-4e9f-bc13-eeffa5c71f12")
+		(property "Reference" "T1P3"
+			(at 76.2 84.455 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "THICKPINSMD2,5X4"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:SMDPAD2,5X4"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "a6873c1b-4c21-4e18-ad8c-9354acb7a3f4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "T1P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSMD2,5X4")
+		(at 76.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b45dd50-8798-4c9a-a5fc-16aa8316f08f")
+		(property "Reference" "T1P4"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSMD2,5X4"
+			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:SMDPAD2,5X4"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "b3465d1f-8586-4f76-a483-536da34517d8")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "T1P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 143.51 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bd13532-c305-4366-9cdd-cd6956186474")
+		(property "Reference" "#GND29"
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7272eed-d003-459a-a3ed-1261ee6728cd")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d58a102-c3e4-4e19-a2e1-1f0ac1e31a27")
+		(property "Reference" "JP18"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd1c22e-dd25-4ac0-af69-f8b1e9106d72")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 113.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3df9e903-7c27-4959-baad-8291806d22d8")
+		(property "Reference" "C15"
+			(at 114.554 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 114.554 93.599 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "485d4caf-41df-47cf-9cf4-3765c22c4123")
+		)
+		(pin "1"
+			(uuid "acd5e915-5e65-4ac4-a539-196a840b5e63")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 120.65 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef601af-ce07-43dc-a992-f37de5671922")
+		(property "Reference" "#GND32"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72032bc8-eec6-4904-a589-1cbe411be6e8")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40985565-0700-44d5-b869-f2492d93f4b9")
+		(property "Reference" "C44"
+			(at 153.289 204.216 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 204.216 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ec14723-0cae-417d-b375-64ea3b10fe66")
+		)
+		(pin "2"
+			(uuid "152f8f7f-23bf-4413-8ced-fcffa0f5cee9")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 93.98 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d238e64-a5d2-4092-8a9a-31e111794bc8")
+		(property "Reference" "C27"
+			(at 95.504 138.049 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 95.504 143.129 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43692700-8538-49e1-9c3c-e3b7d911c690")
+		)
+		(pin "1"
+			(uuid "bad4903c-982e-4ac7-ac44-b01955eb1a15")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d3ea8e7-7da0-4412-aa4b-beb12a6f7407")
+		(property "Reference" "JP11"
+			(at 231.14 143.51 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 240.03 151.13 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03aef289-a15c-4d32-8f52-0523a301a538")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 71.12 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d680edb-8fa3-421a-ac1f-8aab9cfba017")
+		(property "Reference" "#GND47"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "107141eb-feb1-40df-9d46-2547423ef599")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 135.89 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "503b41a9-fd48-4221-ac12-5262faac50f3")
+		(property "Reference" "C12"
+			(at 134.366 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 134.366 57.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68655d97-d5ad-409f-b599-3823c9205392")
+		)
+		(pin "1"
+			(uuid "c4fb840a-9b2c-4e24-8b6e-ed84899d602f")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 153.67 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5164838f-eed3-493c-be70-e87c3320bf50")
+		(property "Reference" "#GND39"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c2d038-2a4c-448f-9ed6-5d80339856d2")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52b4142f-a4a9-4404-aa1a-3c8386939fcf")
+		(property "Reference" "C36"
+			(at 153.289 173.736 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 173.736 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18f10a66-9522-4113-a9b7-9e65ec718093")
+		)
+		(pin "1"
+			(uuid "eccb7590-5319-4a97-a46b-639d8a6249cc")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 227.33 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "561c35d5-a139-46d5-bd1a-9796f12d0af4")
+		(property "Reference" "#GND27"
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7f379d-cf71-422e-a8aa-c94ad7f5acd2")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 128.27 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "573e5015-ba61-4478-be2c-635583d8381a")
+		(property "Reference" "#GND31"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d762aa15-ed56-484a-9883-70ca2aaa4044")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 86.36 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58e2ae29-3c9b-4621-b095-e5f1d59ee525")
+		(property "Reference" "C25"
+			(at 84.836 166.751 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 84.836 161.671 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3eaf00-61a5-4a1e-8799-59124af6132f")
+		)
+		(pin "2"
+			(uuid "f29199e1-81f1-491e-8724-fdd0b261e944")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_HF_SPULE_1W30X12")
+		(at 185.42 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59d1d101-79ca-4dfa-a818-ee214283259b")
+		(property "Reference" "L1"
+			(at 180.848 75.184 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ">100uH"
+			(at 180.848 80.264 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:KERN90_STEHEND_2PIN"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "19116880-6fee-4b6b-9263-947500a19ef7")
+		)
+		(pin "P$2"
+			(uuid "d0745222-70ff-4858-bd14-e56a94f108d1")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 143.51 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5abdb2e7-070e-4c3c-b404-da04da36121f")
+		(property "Reference" "#GND37"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1abfba-6079-44ff-9d42-d7f293296df1")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cbeb7ed-def3-4f55-9b43-dfaac1a7550a")
+		(property "Reference" "JP4"
+			(at 231.14 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 240.03 130.81 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "667ff81d-cfbb-4ede-bbbf-e97cfca7be0a")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 143.51 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "623879d4-c04a-4e12-bee1-adbdaa051d46")
+		(property "Reference" "C11"
+			(at 141.986 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 141.986 57.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f24310b-5738-469d-9c25-5c3d97584aaf")
+		)
+		(pin "1"
+			(uuid "ef284bf0-e2d9-4099-b65c-f806d1c0eb8f")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 151.13 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62539643-08b8-4cdf-8acb-1d0869d061cb")
+		(property "Reference" "#GND28"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6632d61-7eff-42a0-85cf-fa13e0cc2a10")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 71.12 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62edd84b-19c0-41f3-ae72-d62e94f953a3")
+		(property "Reference" "#GND40"
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f787637-a6e4-4e87-b807-926872f57195")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 128.27 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6608b7fb-ddca-4e35-99f9-9a98eba3496a")
+		(property "Reference" "#GND35"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb6ebf95-467d-4f53-96cd-1fac864f606e")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67bad668-500f-44c8-be0a-78afc9f8475d")
+		(property "Reference" "C38"
+			(at 153.289 188.976 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 188.976 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "892c64f6-53c4-4845-ba78-e804f6f9b388")
+		)
+		(pin "2"
+			(uuid "e6aa636b-2068-45c1-8f2a-d7c6d3c11329")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 227.33 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e4cd517-daad-49c3-93c5-697268e8a694")
+		(property "Reference" "#GND48"
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 154.94 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f9bfb01-4fde-4679-a8d0-4c9b561a0ed4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:relay_G2RE")
+		(at 215.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75c6ea42-c280-4757-9f19-bcb20da9c2ef")
+		(property "Reference" "K3"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "G5RL-1E-HR-12V"
+			(at 217.17 105.029 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:G2RE"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "132bb9dd-5602-4dd1-88a6-4c51568ca01a")
+		)
+		(pin "O0"
+			(uuid "a8ae690f-2065-497f-9893-3d84d1be6c36")
+		)
+		(pin "O1"
+			(uuid "41e14b1c-9471-4e5a-979f-41bc52188337")
+		)
+		(pin "P0"
+			(uuid "d62f54da-4d5b-48ac-ad5d-d6e4a91f3a36")
+		)
+		(pin "P1"
+			(uuid "6e748d4a-729b-4070-9137-2f26fbd94a93")
+		)
+		(pin "S0"
+			(uuid "6e3454f8-3d82-4f8f-87b8-e014116eaba3")
+		)
+		(pin "1"
+			(uuid "90e7003e-f01d-41a5-8d38-874bf3c3b036")
+		)
+		(pin "S1"
+			(uuid "d2631e51-474e-4634-aaf6-5b497489f852")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 78.74 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7794a289-3ea6-40b8-99a0-9c84b355e411")
+		(property "Reference" "C28"
+			(at 77.216 166.751 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 77.216 161.671 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab2fad46-06ae-41fb-96e1-4555b87a5ca2")
+		)
+		(pin "1"
+			(uuid "aa5e14af-a8c8-449a-963d-40594a0e27ec")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 93.98 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cbd9f30-e1f2-4f40-9bec-1bcbda8f107a")
+		(property "Reference" "#GND45"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f8c45c8-e4bb-4c6d-b6c8-d15677cb8fba")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 151.13 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80f7389e-974a-49ae-99ff-904311a60a5e")
+		(property "Reference" "C8"
+			(at 149.606 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 149.606 57.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c7d814e-1702-4563-91c7-ded25a3bf00b")
+		)
+		(pin "1"
+			(uuid "74eff7f5-1480-4160-923c-72b3113e514e")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1W_GERADE_DOPPELROHRREVERSE")
+		(at 120.65 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "865cc606-ba5e-4c43-bc2f-833e87baea23")
+		(property "Reference" "TR3"
+			(at 125.222 149.606 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" ""
+			(at 125.222 143.256 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:DOPPELRINGKERN_REV"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P2"
+			(uuid "05b3f883-027b-4b36-ac36-ebeda8721b9c")
+		)
+		(pin "S1"
+			(uuid "483beb96-88ef-4634-a6f7-7ca8ad6628fd")
+		)
+		(pin "S2"
+			(uuid "3c9522e7-31d1-4a03-83e7-cca7844a0fee")
+		)
+		(pin "P1"
+			(uuid "77944cd9-d9f2-4d5d-b8d4-77747239b8e8")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "TR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88ec1d18-59ec-4498-96c0-a65ce0869b4b")
+		(property "Reference" "JP13"
+			(at 231.14 19.05 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 238.76 26.67 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f32ebc-86b6-4ee2-9170-2977d0b63732")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 93.98 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8de5d3a6-deb2-4bff-95b4-b0459fa1782a")
+		(property "Reference" "C24"
+			(at 92.456 166.751 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 92.456 161.671 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 93.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef778021-509e-4c89-8445-6392d1b0c96b")
+		)
+		(pin "1"
+			(uuid "c9d645a6-185a-4081-8076-513ba9c70d4b")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94231ef7-8c34-4468-affd-f48a34ec12e3")
+		(property "Reference" "JP12"
+			(at 231.14 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 240.03 160.02 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64043dfd-cd9c-47be-99b8-badfb8356347")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b6bb9b-b0ed-424d-b5b2-cfaff4ec9c6c")
+		(property "Reference" "C31"
+			(at 153.289 135.636 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 135.636 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7451d22f-cd07-4f7e-9b6f-0ab11b03c796")
+		)
+		(pin "2"
+			(uuid "5cf9304e-1d5f-4005-867b-fb70554879aa")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 128.27 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a089b539-dfe4-4bb3-a174-818e48f9a7d6")
+		(property "Reference" "C13"
+			(at 126.746 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 126.746 57.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ce8463-cec1-45f3-a432-cb619d1a9753")
+		)
+		(pin "2"
+			(uuid "82d2a357-9318-4061-a8ed-83c49401995d")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 135.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ae2a0b-5489-49da-b072-3ed1bae9d580")
+		(property "Reference" "C18"
+			(at 137.414 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 137.414 93.599 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645cf98a-b9fe-4cee-b6b7-5cac4e1784a8")
+		)
+		(pin "2"
+			(uuid "5e8439f9-39b2-48fe-b47d-f2a3bef12fa0")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37191f9-d091-4781-b9d8-aadcca35748e")
+		(property "Reference" "C33"
+			(at 153.289 150.876 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 150.876 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259356f7-8741-4a43-a14c-d6dcf7da9322")
+		)
+		(pin "2"
+			(uuid "64c64d0a-7ee7-4556-ad03-ed5ce6541ff1")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:diode_DIODE-SMB")
+		(at 204.47 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a542a4-14e4-4c49-b0ea-7c0d62cb4009")
+		(property "Reference" "D15"
+			(at 211.6074 113.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DIODE-SMB"
+			(at 209.3214 113.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:SMB"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "871c2a9f-7cfa-438d-9827-df9c33891df2")
+		)
+		(pin "A"
+			(uuid "3bb69f06-189e-4e2a-8d86-55d234c36e77")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 86.36 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a671f95b-224b-4248-9272-b86cace41e28")
+		(property "Reference" "C26"
+			(at 87.884 138.049 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 87.884 143.129 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "245c9d16-2bdd-495c-b6f5-849e266e0e97")
+		)
+		(pin "1"
+			(uuid "2d2502c9-ed8e-448d-b452-9628f5777878")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac9b2e6c-7350-4aa1-8da4-983adbc808b4")
+		(property "Reference" "C30"
+			(at 153.289 128.016 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 128.016 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e1aa39-71d3-45a7-adce-faf963d150e4")
+		)
+		(pin "2"
+			(uuid "3c5b6f39-d561-4dac-b96e-49a0107ef242")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSMD2,5X4")
+		(at 96.52 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf17549-2aae-446b-91ff-a1f5fda2575f")
+		(property "Reference" "T1S4"
+			(at 102.235 97.155 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSMD2,5X4"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:SMDPAD2,5X4"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "2b1e53c2-008a-4a39-8e90-80cf42e7e65f")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "T1S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1W_GERADE_DOPPELROHR")
+		(at 119.38 156.21 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae3c9ae5-279f-4e52-8a4a-a19cbd8d39bc")
+		(property "Reference" "TR2"
+			(at 123.952 155.194 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" ""
+			(at 123.952 161.544 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:DOPPELRINGKERN"
+			(at 119.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P2"
+			(uuid "a6751bdc-60e2-4b2f-a781-6592461b7968")
+		)
+		(pin "P1"
+			(uuid "9e722c10-dc3a-4613-a9fc-0b1df668f401")
+		)
+		(pin "S1"
+			(uuid "2df751d1-8557-4808-91ba-80063cdea923")
+		)
+		(pin "S2"
+			(uuid "8cc75ce6-5589-4065-9311-d89781c6ead9")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "TR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSQUARE")
+		(at 236.22 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae3d6bcd-aae0-434c-9dc9-751ce342c913")
+		(property "Reference" "JP3"
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSQUARE"
+			(at 240.03 139.7 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:THICKPIN"
+			(at 236.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78602b04-814b-4c95-9477-373fa33a5b5c")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 86.36 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04c5d64-728d-408a-994d-bef165d87171")
+		(property "Reference" "#GND44"
+			(at 86.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f9f3cb-f033-4c1b-8ca7-724273c22417")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_THICKPINSMD2,5X4")
+		(at 96.52 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b794c197-4db9-4518-8993-19872a928726")
+		(property "Reference" "T1S3"
+			(at 102.235 84.455 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "THICKPINSMD2,5X4"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:SMDPAD2,5X4"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "c96bbca6-445f-4aca-a807-6b7c4089204c")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "T1S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC0603K")
+		(at 199.39 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d6ea8f-de6a-468a-b805-54e7fb31de3c")
+		(property "Reference" "C42"
+			(at 197.866 108.331 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603K"
+			(at 197.866 103.251 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C0603K"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13a6198-79cb-42d7-963e-83d4514dc92d")
+		)
+		(pin "2"
+			(uuid "779a5a97-c212-411e-9383-861c36d5064e")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b87451e7-1eba-4458-8a05-b9adf88f8b72")
+		(property "Reference" "C35"
+			(at 153.289 166.116 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 166.116 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35d1d9bc-4d44-4ca6-a6bb-61a6abf97c24")
+		)
+		(pin "1"
+			(uuid "9530a02f-3ca0-4025-a6fd-669b6e587bd8")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:km_HF_TRAFO_1W_1WMANTEL_STEHEND")
+		(at 177.8 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b2abb9-bae2-4f49-88ab-c5f75124ec28")
+		(property "Reference" "TR4"
+			(at 183.896 159.512 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 169.926 159.512 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:DOPPELLMANTEL_STEHEND"
+			(at 177.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P1"
+			(uuid "0c26afe5-f661-42e7-ae77-45db49d2c84e")
+		)
+		(pin "P2"
+			(uuid "2d30ed09-4166-4457-b230-b52e78d861ea")
+		)
+		(pin "S2"
+			(uuid "917cfdb0-f69d-4f4f-80bd-843b91868a0b")
+		)
+		(pin "S1"
+			(uuid "95fc87e6-e98f-486e-89c3-1b316092010b")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "TR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 182.88 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb093aca-0adb-4e9a-9d91-f2c1b7e62749")
+		(property "Reference" "#GND26"
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75c7de7-b4fa-4162-89e7-77d2657044ee")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:relay_G2RE")
+		(at 220.98 144.78 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be999a42-f27b-4082-8498-797cc20c9bec")
+		(property "Reference" "K3"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "G5RL-1E-HR-12V"
+			(at 218.059 143.51 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:G2RE"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P0"
+			(uuid "dd63f130-6bbb-4b0d-afd7-105087161a3f")
+		)
+		(pin "O0"
+			(uuid "70258680-2336-471c-9007-4c6a49f4d072")
+		)
+		(pin "S0"
+			(uuid "c5ded2bf-2b5e-483e-8ae5-243eb19c3c58")
+		)
+		(pin "S1"
+			(uuid "a8ce877e-24f3-46b5-9a67-e4cc0d4bab72")
+		)
+		(pin "2"
+			(uuid "09f56349-5d8b-4470-ac3a-049aa8972d87")
+		)
+		(pin "1"
+			(uuid "3aeade96-a0e5-4310-955a-080db84ae66a")
+		)
+		(pin "O1"
+			(uuid "b8738d9c-9215-4539-a497-e56584723a47")
+		)
+		(pin "P1"
+			(uuid "f3a271d4-53a1-4e93-b00c-bcb1a6611ce0")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "K3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 71.12 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c373221a-1249-401f-a0ca-00a6248fdea3")
+		(property "Reference" "C22"
+			(at 72.644 138.049 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 72.644 143.129 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d8f341a-5aae-4f13-aafa-9b343faf0e6d")
+		)
+		(pin "2"
+			(uuid "5a6ad93d-50e0-41e7-a2cc-7a7202d4c5e9")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 93.98 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c8ff52-154d-46b1-8372-0deae685b92d")
+		(property "Reference" "#GND42"
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3df0d4-dc8c-4765-806c-f841ec1a0f7a")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 120.65 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c880e97f-32ba-47f3-954b-9285065fbc36")
+		(property "Reference" "C16"
+			(at 122.174 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 122.174 93.599 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "626a1fd5-5a40-4b08-876f-d775a088c0f7")
+		)
+		(pin "1"
+			(uuid "3f1789df-7102-4848-8b99-52b5caa17af4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 199.39 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caff7c94-eaa9-4652-a0cf-a68ced45e1c9")
+		(property "Reference" "#GND50"
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29fd71e6-6d1b-4612-8f28-06c5f08c67a4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 215.9 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8ad8cb5-37cf-4d2a-8062-ca12e7373803")
+		(property "Reference" "#GND49"
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39e5a585-2ab8-4272-a25c-fe56bca033f4")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de103049-d5f6-486c-a5dd-936e9c26e176")
+		(property "Reference" "C37"
+			(at 153.289 181.356 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 181.356 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6b57eba-8af4-49a9-a166-7c720f54dd4b")
+		)
+		(pin "2"
+			(uuid "f4e2bb6a-0b20-46c6-b717-73066e9bd25e")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e50868bf-c748-4061-ab00-342bfdd2ea42")
+		(property "Reference" "C43"
+			(at 153.289 196.596 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 196.596 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34fc581d-70a6-449f-a14a-328077e4e190")
+		)
+		(pin "2"
+			(uuid "fb40c501-e799-45ea-9ec9-cada02bce9d0")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 135.89 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e52f6f1f-d23a-45ac-89c3-e3cea1120b0d")
+		(property "Reference" "#GND30"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac080571-2d29-496a-ac64-717c538705ef")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 86.36 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a90677-faf4-4b97-a694-d1f8b2d16da4")
+		(property "Reference" "#GND43"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c29992-8c0a-4115-b002-7814bd28bcd3")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_CPOL-EUE5-13")
+		(at 175.26 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7e8133d-3d30-459a-aa88-ab174fd6769b")
+		(property "Reference" "C41"
+			(at 174.7774 63.627 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CPOL-EUE5-13"
+			(at 179.8574 63.627 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:E5-13"
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "-"
+			(uuid "8a2df815-54c2-4731-bf35-0a965a607a43")
+		)
+		(pin "+"
+			(uuid "3979cd41-d571-45af-8a71-bf34ed72f4c5")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 78.74 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9f4bf7f-42b1-4577-9d06-0a1f51964dc8")
+		(property "Reference" "#GND46"
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad1eb36f-aae3-4a29-bea4-f8e800097f26")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 182.88 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb7d74d4-0d01-4b95-8cae-601cb5ec3c8c")
+		(property "Reference" "#GND52"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4581af39-e59b-42e1-9cae-af07b73c546c")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 143.51 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec985cb2-388b-4092-978b-4d3161f59772")
+		(property "Reference" "C19"
+			(at 145.034 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 145.034 93.599 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e2a2eb-7fe4-4aad-861d-d87e91e843d1")
+		)
+		(pin "2"
+			(uuid "371b7274-dbca-4f1a-9aae-2783a27767c7")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:supply1_GND")
+		(at 113.03 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef9224d5-27f2-4e7c-adff-11443355e9a9")
+		(property "Reference" "#GND33"
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07448b01-c3f2-42a8-b777-3102f8fd7d92")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "#GND33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_CPOL-EU153CLV-1014")
+		(at 113.03 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe2bb5f-e4be-41d6-9d82-4296656f4a4e")
+		(property "Reference" "C21"
+			(at 111.887 62.7126 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CPOL-EU153CLV-1014"
+			(at 111.887 57.6326 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:153CLV-1014"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "929ea671-0c41-4988-95cb-c01bc5d0abbd")
+		)
+		(pin "-"
+			(uuid "904a4f88-21c0-41bd-9045-4aa626ab1192")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 128.27 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3907322-5e38-411a-8152-81fd2a413d68")
+		(property "Reference" "C17"
+			(at 129.794 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 129.794 93.599 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f81f2b1-5d80-4c50-b152-d62e5772f6d7")
+		)
+		(pin "1"
+			(uuid "a3ecb634-bbd5-4193-9b55-2373f6fcfb16")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1210K")
+		(at 153.67 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f479dfcf-9496-47b1-ad54-e0bdafc4f644")
+		(property "Reference" "C45"
+			(at 153.289 112.776 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1210K"
+			(at 158.369 112.776 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1210K"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5feca93-7e8b-4631-8b65-3ff8a1885932")
+		)
+		(pin "1"
+			(uuid "82ce0cfd-a660-47e8-a668-a452d1517e45")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kwpa_ldmos2-eagle-import:rcl_C-EUC1812K")
+		(at 120.65 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fed68755-846e-44c7-b82e-89de6355b2b2")
+		(property "Reference" "C14"
+			(at 119.126 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC1812K"
+			(at 119.126 57.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kwpa_ldmos2:C1812K"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "100b5a9b-55e9-490e-9019-99de38510e52")
+		)
+		(pin "1"
+			(uuid "421b073c-9dc2-4b81-9e33-fccc8e205db7")
+		)
+		(instances
+			(project ""
+				(path "/419f2386-6696-46c3-9eba-b2894bf08d1f/8982bfce-008d-4e5c-8457-0125ebe9e25a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
